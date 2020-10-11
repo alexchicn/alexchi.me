@@ -1,0 +1,20 @@
+baseURL = "http://blog.alexchi.me/"
+languageCode = "zh-cn"
+title = "Alex Chi的博客"
+theme = "kiera"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+
+[author]
+    name = "Alex Chi的博客"
+    github = "alexchicn"
+    gitlab = "alexchicn"
+    twitter = "alexchicn"
+
+[params]
+    tagline = "CG tech"

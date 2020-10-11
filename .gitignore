@@ -1,0 +1,9 @@
+# vs
+/.vs
+/.vscode
+
+# vim
+/**/*.*~
+
+# project
+/public
