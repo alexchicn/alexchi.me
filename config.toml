@@ -18,3 +18,5 @@ pygmentsCodeFences = true
 
 [params]
     tagline = "一位开发者的自述"
+
+publishDir = ".."
