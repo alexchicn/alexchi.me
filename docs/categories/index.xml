@@ -6,6 +6,8 @@
        <description>Recent content in Categories on Alex Chi的博客</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
+       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
+       <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
        
            <atom:link href="http://blog.alexchi.me/categories/index.xml" rel="self" type="application/rss+xml" />
        

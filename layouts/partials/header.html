@@ -1,0 +1,56 @@
+<!doctype html>
+
+<html lang="{{ .Site.LanguageCode | default "en" }}">
+
+<head>
+  <title>{{ .Site.Title }}</title>
+  {{ partial "meta" . }}
+  {{ partial "header_includes" . -}}
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+        <a href="{{ relLangURL "/" }}">{{ .Site.Title | markdownify }}</a>
+      </h1>
+
+      <ul id="social-media">
+        {{ range .Site.Languages -}}
+        {{ if ne .LanguageName $.Site.Language.LanguageName }}
+        <li><a href="/{{ .Lang }}">{{ .LanguageName }}</a></li>
+        {{ end }}
+        {{ end }}
+        {{ if .Site.Author.categories }}
+        <li><a target="_blank" href="{{ .Site.Author.categories }}"><i class="fas fa-tags" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.tags }}
+        <li><a target="_blank" href="{{ .Site.Author.tags }}"><i class="fas fa-tags" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.user }}
+        <li><a target="_blank" href="{{ .Site.Author.user }}"><i class="fas fa-user" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.twitter }}
+        <li><a target="_blank" href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.linkedin }}
+        <li><a target="_blank" href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.github }}
+        <li><a target="_blank" href="https://github.com/{{ .Site.Author.github }}"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.gitlab }}
+        <li><a target="_blank" href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.email }}
+        <li><a target="_blank" href="{{ .Site.Author.email }}"><i class="fas fa-at" aria-hidden="true"></i></a></li>
+        {{ end }}
+      </ul>
+      {{ with .Site.Params.tagline }}
+      <p><em>{{ . | markdownify }}</em></p>
+      {{ end }}
+    </header>
+
+    {{ partial "nav" . }}
+
+    <main>

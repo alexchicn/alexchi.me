@@ -10,9 +10,13 @@ pygmentsCodeFences = true
 
 [author]
     name = "Alex Chi的博客"
+    #categories = "/categories"
+    #tags = "/tags"
+    user = "http://alexchi.me"
     github = "alexchicn"
     gitlab = "alexchicn"
     twitter = "alexchicn"
+    email = "mailto:alexchicn@gmail.com"
 
 [params]
     tagline = "一位图形学爱好者的唠叨"
