@@ -1,4 +1,4 @@
-baseURL = "http://blog.alexchi.me/"
+baseURL = "https://blog.alexchi.me/"
 languageCode = "zh-cn"
 title = "Alex Chi的博客"
 theme = "kiera"

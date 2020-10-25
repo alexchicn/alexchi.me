@@ -1,0 +1,20 @@
+<article>
+    <h1>{{ .Title }}</h1>
+
+    {{ if not .Params.meta }}
+        {{ partial "aside" . }}
+    {{ end }}
+
+    {{.Content}}
+
+    {{ if .Params.ShowComment }}
+    <script src="https://utteranc.es/client.js"
+        repo="alexchicn/blog.alexchi.me"
+        issue-term="pathname"
+        label="comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+    </script>
+    {{ end }}
+</article>
