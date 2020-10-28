@@ -1,0 +1,15 @@
+<article>
+
+    <h1>{{ .Title }}</h1>
+
+    {{ if not .Params.meta }}
+        {{ partial "aside" . }}
+    {{ end }}
+
+    {{.Content}}
+
+    {{ if .Params.comment }}
+    {{ template "templates/comment.html" . }}
+    {{ end }}
+
+</article>

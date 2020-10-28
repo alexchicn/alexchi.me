@@ -1,0 +1,18 @@
+</main>
+    <footer>
+        <h6>{{ .Site.Copyright | markdownify }} |
+            {{ i18n "renderedBy" }} <a href="https://gohugo.io" title="Hugo">Hugo {{ hugo.Version }}</a> |
+            <a href="{{.Site.BaseURL}}index.xml">{{ i18n "subscribe" }}</a></h6>
+    </footer>
+</div>
+<script src="{{ "js/scripts.js" | relURL }}"></script>
+{{ if .Site.GoogleAnalytics }}
+{{ if or (eq hugo.Environment "development") .Site.BuildDrafts }}
+<div>Ignore the google analytics when the environment is {{ hugo.Environment }} or the site is built for the draft. </div>
+{{ else }}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
+{{ end }}
+</body>
+
+</html>
