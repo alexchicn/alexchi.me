@@ -2,8 +2,9 @@
 title: "“羲和”开发日志（一） 项目介绍"
 author: "Xing Ji"
 date: 2020-10-28T22:24:05+08:00
-#menu: "main"
 draft: true
+#menu: "main"
+#image: "images/xihe-intro.jpg"
 meta: false
 toc: true
 comment: true
@@ -12,10 +13,6 @@ categories: [ "羲和", "XiHe" ]
 ---
 
 > 本文介绍**羲和**项目的背景、目标和技术
->
-> #### 关于命名
->
-> 渲染离不开对光的研究，而光学追踪更是如此，那么传说中的太阳神应该对光十分了解。在中国的神话中“**羲和**”是[中国古代神话的太阳女神](https://baike.baidu.com/item/%E7%BE%B2%E5%92%8C/278594)，所以选用“**羲和**”来命名这个项目。
 
 ## 背景
 
@@ -65,3 +62,7 @@ categories: [ "羲和", "XiHe" ]
 ## 技术选型
 
 通过NVIDIA的OptiX和CUDA实现自己的光线追踪算法，并利用MDL来表达材质。
+
+> #### 关于命名
+>
+> 渲染离不开对光的研究，而光学追踪更是如此，那么传说中的太阳神应该对光十分了解。在中国的神话中“**羲和**”是[中国古代神话的太阳女神](https://baike.baidu.com/item/%E7%BE%B2%E5%92%8C/278594)，所以选用“**羲和**”来命名这个项目。
