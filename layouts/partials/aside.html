@@ -1,6 +1,9 @@
 <aside>
     <ul>
         <li>
+            {{ if .Params.author }}
+                {{ .Params.author }} @
+            {{ end }}
             <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}">{{ .Date.Format "2006-01-02" }}</time>
         </li>
         {{ if .Params.categories }}

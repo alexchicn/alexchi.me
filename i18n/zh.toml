@@ -19,3 +19,6 @@ other = "渲染器是"
 
 [subscribe]
 other = "订阅"
+
+[author_]
+other = "作者："

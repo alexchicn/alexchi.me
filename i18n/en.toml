@@ -19,3 +19,6 @@ other = "Rendered by"
 
 [subscribe]
 other = "Subscribe"
+
+[author_]
+other = "Author:"

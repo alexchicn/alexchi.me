@@ -6,6 +6,10 @@
         {{ partial "aside" . }}
     {{ end }}
 
+    {{ if .Params.toc}}
+        {{.TableOfContents}}
+    {{ end }}
+
     {{.Content}}
 
     {{ if .Params.comment }}
