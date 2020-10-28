@@ -1,0 +1,3 @@
+rm -rf docs
+hugo -d docs
+git checkout docs/CNAME
