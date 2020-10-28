@@ -1,7 +1,7 @@
 +++
 title = "羲和开发日志（一） 项目介绍"
 date = 2020-10-28T22:24:05+08:00
-#draft = true
+draft = true
 comment = true
 tags = [ "渲染", "光线追踪", "Render", "Ray Tracing", "CUDA", "OptiX", "MDL" ]
 categories = [ "羲和", "XiHe" ]
