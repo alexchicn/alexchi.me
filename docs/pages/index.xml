@@ -8,10 +8,19 @@
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
-       <lastBuildDate>Tue, 20 Oct 2020 13:26:58 +0800</lastBuildDate>
+       <lastBuildDate>Thu, 29 Oct 2020 14:14:05 +0800</lastBuildDate>
        
            <atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
        
+       
+       <item>
+         <title>Code 4 Game</title>
+         <link>/pages/code4game/</link>
+         <pubDate>Thu, 29 Oct 2020 14:14:05 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/pages/code4game/</guid>
+         <description></description>
+       </item>
        
        <item>
          <title>羲和</title>

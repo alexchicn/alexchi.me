@@ -8,10 +8,19 @@
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
-       <lastBuildDate>Wed, 28 Oct 2020 22:24:05 +0800</lastBuildDate>
+       <lastBuildDate>Thu, 29 Oct 2020 14:14:05 +0800</lastBuildDate>
        
            <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
        
+       
+       <item>
+         <title>Pages</title>
+         <link>/pages/</link>
+         <pubDate>Thu, 29 Oct 2020 14:14:05 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/pages/</guid>
+         <description></description>
+       </item>
        
        <item>
          <title>Posts</title>
@@ -19,15 +28,6 @@
          <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
          <guid>/posts/</guid>
-         <description></description>
-       </item>
-       
-       <item>
-         <title>Pages</title>
-         <link>/pages/</link>
-         <pubDate>Tue, 20 Oct 2020 13:26:58 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
-         <guid>/pages/</guid>
          <description></description>
        </item>
        
