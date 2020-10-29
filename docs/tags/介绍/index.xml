@@ -1,0 +1,65 @@
+
+   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+     <channel>
+       <title>介绍 on Alex Chi的博客</title>
+       <link>/tags/%E4%BB%8B%E7%BB%8D/</link>
+       <description>Recent content in 介绍 on Alex Chi的博客</description>
+       <generator>Hugo -- gohugo.io</generator>
+       <language>zh-cn</language>
+       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
+       <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
+       <lastBuildDate>Wed, 28 Oct 2020 22:24:05 +0800</lastBuildDate>
+       
+           <atom:link href="/tags/%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" />
+       
+       
+       <item>
+         <title>“羲和”开发日志（一） 项目介绍</title>
+         <link>/posts/xihe-development-log-1st-intro/</link>
+         <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/posts/xihe-development-log-1st-intro/</guid>
+         <description>&lt;blockquote&gt;
+&lt;p&gt;本文介绍&lt;a href=&#34;../../pages/xihe/&#34;&gt;羲和&lt;/a&gt;项目的背景、目标和技术，当前项目状态请点&lt;a href=&#34;../../pages/xihe/&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;最近几年随着GPU的进步原来费时费力的光线追踪技术变成了一个热门话题，并且出现了大量相关项目，这样大大降低了渲染技术的门槛。通过很多开源项目可以快速地搭建出属于自己的渲染器。&lt;/p&gt;
+&lt;p&gt;本人过去几年搞游戏开发，近几年从事家装软件的开发，参与的项目都十分看重效果，所以累积了不少渲染技术。
+为了能实现一些想法也构建过自己的渲染器，但是在看到&lt;a href=&#34;https://www.unrealengine.com/&#34;&gt;UnrealEngine&lt;/a&gt;和&lt;a href=&#34;https://www.cryengine.com/&#34;&gt;CryEngine&lt;/a&gt;都开源了自己的引擎，就放弃了自己的项目😢。
+不过现在在光线追踪方面有了大量开源项目的支撑，可以让我更专注于渲染核心算法，实现自己的想法😄。&lt;/p&gt;
+&lt;h3 id=&#34;现状&#34;&gt;现状&lt;/h3&gt;
+&lt;p&gt;市面上的渲染器有很多，针对不同市场各自的架构也不同。以下是个人对一些渲染器的了解和看法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;是由&lt;a href=&#34;https://www.nvidia.com/&#34;&gt;NVIDIA&lt;/a&gt;提供的光线追踪技术。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OpenShaderLanguage&lt;/a&gt; (&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OSL&lt;/a&gt;)是由&lt;a href=&#34;%E6%9D%A5%E8%87%AA%E7%B4%A2%E5%B0%BC%E5%BD%B1%E8%A7%86&#34;&gt;ImageWorks&lt;/a&gt;开源的一款影视级着色语言。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;appleseed&#34;&gt;&lt;a href=&#34;https://appleseedhq.net/&#34;&gt;Appleseed&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;开源，基于CPU进行渲染，出色的性能。不少影视作品采用了此项目进行场景渲染，我所知道《权力游戏》就采用此软件。&lt;/p&gt;
+&lt;h4 id=&#34;mitsuba2&#34;&gt;&lt;a href=&#34;https://github.com/mitsuba-renderer/mitsuba2&#34;&gt;Mitsuba2&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;开源，由几位行业知名的教授共同构建，既可以进行CPU渲染，也可以通过&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;进行GPU渲染。它是一个非常值得好好研究学习的项目。&lt;/p&gt;
+&lt;h4 id=&#34;v-ray&#34;&gt;&lt;a href=&#34;https://www.chaosgroup.com/&#34;&gt;V-Ray&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;建筑行业的标杆，无需多介绍。目前也支持GPU运算。&lt;/p&gt;
+&lt;h4 id=&#34;iray&#34;&gt;&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/iray/&#34;&gt;Iray&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nvidia.com/&#34;&gt;NVIDIA&lt;/a&gt;开发的渲染库，需要购买商业授权。从介绍来看既可以实时渲染也可以进行影视渲染，功能十分强大，像知名的&lt;a href=&#34;https://www.keyshot.com/&#34;&gt;KeyShot&lt;/a&gt;这样的渲染软件就是基于此库开发的。&lt;/p&gt;
+&lt;h4 id=&#34;octanerender&#34;&gt;&lt;a href=&#34;https://home.otoy.com/render/octane-render/&#34;&gt;OctaneRender&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;很早就开始使用GPU进行渲染的一款软件，其渲染内核是基于&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;和&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OSL&lt;/a&gt;。一方面它在运用GPU加速方面十分出色，另一方面&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OSL&lt;/a&gt;使得其使用起来更方便快捷。&lt;/p&gt;
+&lt;p&gt;它有几种渲染内核，其中&lt;strong&gt;Path Tracing&lt;/strong&gt;是最耗时但效果最真实的，每种内核都是在光栅化和光线追踪之间进行取舍。用户可以通过&lt;strong&gt;Direct Lighting&lt;/strong&gt;进行快速地预览，通过&lt;strong&gt;Path Tracing&lt;/strong&gt;得到最终的产品。
+另外最近几年又针对AMD的GPU进行了开发使得它能够脱离&lt;a href=&#34;https://www.nvidia.com/&#34;&gt;NVIDIA&lt;/a&gt;的&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;在更多GPU上运行。&lt;/p&gt;
+&lt;h4 id=&#34;unrealengine&#34;&gt;&lt;a href=&#34;https://www.unrealengine.com/&#34;&gt;UnrealEngine&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;严格来讲UE4不算是渲染器，是一个游戏引擎，但是近几年来它以出色的实时渲染效果和开源政策，得到了市场的青睐。各个行业都拿它来秀效果，从游戏到房地产，从影视到智慧城市，都想和它有交集。不过在经过一段时间的磨合后会发现UE4的开发难度真的不低，对于软件开发和技术美术来说都是不小的挑战。要知道&lt;strong&gt;各个行业的需求不仅仅是画面和效果，还包含很多特有的功能，而一个游戏引擎是无法满足的，所以找到合适的最重要。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;前段时间UE5的演示也震撼了很多人，个人觉得&lt;a href=&#34;https://www.epicgames.com/&#34;&gt;EpicGames&lt;/a&gt;在实时渲染方面运用了更多光线追踪原理，使得实时渲染进一步靠近光线追踪。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;p&gt;市面上已经有这么多渲染器为什么还要再做一个呢？
+的确市面上有很多非常棒的渲染器，但是想要实现自己的算法在现有渲染器下进行改造是比较困难的。
+所以这个项目的目的就是能够承载更多的渲染算法和最新技术。&lt;/p&gt;
+&lt;h2 id=&#34;技术&#34;&gt;技术&lt;/h2&gt;
+&lt;p&gt;通过NVIDIA的&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;和&lt;a href=&#34;https://developer.nvidia.com/cuda-toolkit&#34;&gt;CUDA&lt;/a&gt;实现光线追踪算法，并利用&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/&#34;&gt;MDL&lt;/a&gt;来表达材质。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;关于命名&#34;&gt;关于命名&lt;/h4&gt;
+&lt;p&gt;渲染离不开对光的研究，而光学追踪更是如此，那么传说中的太阳神应该对光十分了解。在中国的神话中“&lt;strong&gt;羲和&lt;/strong&gt;”是&lt;a href=&#34;https://baike.baidu.com/item/%E7%BE%B2%E5%92%8C/278594&#34;&gt;中国古代神话的太阳女神&lt;/a&gt;，所以选用“&lt;strong&gt;羲和&lt;/strong&gt;”来命名这个项目。&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+       </item>
+       
+     </channel>
+   </rss>

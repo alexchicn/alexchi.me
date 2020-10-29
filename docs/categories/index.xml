@@ -8,9 +8,28 @@
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
+       <lastBuildDate>Wed, 28 Oct 2020 22:24:05 +0800</lastBuildDate>
        
            <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
        
+       
+       <item>
+         <title>XiHe</title>
+         <link>/categories/xihe/</link>
+         <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/categories/xihe/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>羲和</title>
+         <link>/categories/%E7%BE%B2%E5%92%8C/</link>
+         <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/categories/%E7%BE%B2%E5%92%8C/</guid>
+         <description></description>
+       </item>
        
      </channel>
    </rss>
