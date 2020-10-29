@@ -1,11 +1,12 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-#author: "Alex Chi"
 date: {{ .Date }}
 draft: true
+menu: "main"
 #image: "images/*.jpg"
+meta: true
 toc: true
-comment: true
+comment: false
 categories: []
 tags: []
 ---
