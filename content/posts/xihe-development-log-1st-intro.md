@@ -1,10 +1,10 @@
 ---
 title: "“羲和”开发日志（一） 项目介绍"
-author: "Xing Ji"
+#author: "Alex Chi"
 date: 2020-10-28T22:24:05+08:00
 draft: true
 #menu: "main"
-#image: "images/xihe-intro.jpg"
+image: "images/xihe-intro.jpg"
 meta: false
 toc: true
 comment: true

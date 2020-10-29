@@ -21,4 +21,13 @@ other = "渲染器："
 other = "订阅"
 
 [author_]
-other = "作者："
+other = "作者：{{.author}}"
+
+[date_]
+other = "日期："
+
+[categories_]
+other = "分类："
+
+[tags_]
+other = "标签："

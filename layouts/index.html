@@ -4,12 +4,14 @@
         <ul>
           {{ range $index, $page := first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
           <li {{if eq $index 0}}class="first"{{end}}>
-            {{ if .Params.image }}
-            {{ with .Params.image }}
-            <image src="{{ . | absURL }}"></image>
-            {{ end }}
-            {{ end }}
-            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1> 
+            <a href="{{ .Permalink }}" title="{{ .Title }}">
+              {{ if .Params.image }}
+              {{ with .Params.image }}
+              <image src="{{ . | absURL }}"></image>
+              {{ end }}
+              {{ end }}
+              <h1>{{ .Title }}</h1> 
+            </a>
             {{ partial "aside" . }}
             <p>{{ .Summary }}</p>
             {{ if .Truncated }}

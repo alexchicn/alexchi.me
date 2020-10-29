@@ -2,6 +2,8 @@
 title: "关于评论系统"
 date: 2020-10-12T22:56:04+08:00
 draft: true
+#menu: "main"
+image: "images/comment-utterances.jpg"
 comment: true
 tags: ["utteranc", "comment", "评论", "blog", "博客"]
 categories: [ "网站", "website"]

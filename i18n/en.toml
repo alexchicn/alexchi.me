@@ -1,6 +1,3 @@
-[categories]
-other = "Categories:"
-
 [Categories]
 other = "Categories"
 
@@ -21,4 +18,13 @@ other = "Rendered by"
 other = "Subscribe"
 
 [author_]
-other = "Author:"
+other = "Author: {{.author}}"
+
+[date_]
+other = "Date:"
+
+[categories_]
+other = "Categories:"
+
+[tags_]
+other = "Tags:"
