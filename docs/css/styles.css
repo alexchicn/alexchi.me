@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto Slab", sans-serif;
   color: #333333;
 }
 
@@ -89,7 +89,7 @@ time {
 }
 
 #container nav ul li a.active {
-  border-bottom: 0.5em solid #666666;
+  border-bottom: 0.5em solid #6666bb;
 }
 
 #container main {
@@ -208,6 +208,11 @@ time {
 .meta-aside ul li, #container main section#home ul li aside ul li, #container main article aside ul li {
   margin: 0;
   padding: 0;
+}
+
+.article-content a {
+  color: #336bbb;
+  text-decoration: none;
 }
 
 a {
