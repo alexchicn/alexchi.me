@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .TranslationBaseName "-" " " | title }}"
-#author: "Xing Ji"
+#author: "Alex Chi"
 date: {{ .Date }}
 draft: true
 #menu: "main"
@@ -8,6 +8,6 @@ draft: true
 meta: false
 toc: true
 comment: true
-tags: []
 categories: []
+tags: []
 ---
