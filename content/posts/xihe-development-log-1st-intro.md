@@ -2,8 +2,7 @@
 title: "“羲和”开发日志（一） 项目介绍"
 #author: "Alex Chi"
 date: 2020-10-28T22:24:05+08:00
-#draft: true
-#menu: "main"
+draft: false
 image: "images/xihe-intro.jpg"
 meta: false
 toc: true

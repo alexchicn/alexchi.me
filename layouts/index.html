@@ -2,7 +2,7 @@
 
 <section id="home">
         <ul>
-          {{ range $index, $page := first 10 (where .Site.RegularPages "Section" "in" .Site.Params.mainSections) }}
+          {{ range $index, $page := first 10 .Site.RegularPages }}
           {{ if not .Params.menu }}
           <li {{if eq $index 0}}class="first"{{end}}>
             <a href="{{ .Permalink }}" title="{{ .Title }}">
