@@ -10,7 +10,7 @@
         {{.TableOfContents}}
     {{ end }}
 
-    {{.Content}}
+    <div class="article-content">{{.Content}}</div>
 
     {{ if .Params.comment }}
     {{ template "templates/comment.html" . }}
