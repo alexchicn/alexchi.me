@@ -7,7 +7,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="The HTML5 Herald" />
-  <meta name="author" content="Alex Chi的博客" /><meta name="generator" content="Hugo 0.68.3" />
+  <meta name="author" content="Alex Chi的博客" /><meta name="generator" content="Hugo 0.76.5" />
     <script src="https://kit.fontawesome.com/b76b73e8e8.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.min.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
@@ -141,7 +141,9 @@
 <ul>
 <li><input disabled="" type="checkbox"> 构建光线追踪基础管线
 <ul>
-<li><input disabled="" type="checkbox"> 整合<a href="https://developer.nvidia.com/optix">OptiX</a></li>
+<li><input checked="" disabled="" type="checkbox"> 整合<a href="https://developer.nvidia.com/optix">OptiX</a> 7.0</li>
+<li><input checked="" disabled="" type="checkbox"> 整合<a href="https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/">MDL</a></li>
+<li><input checked="" disabled="" type="checkbox"> 基于FlatBuffers定义渲染数据</li>
 </ul>
 </li>
 <li><input disabled="" type="checkbox"> 构建材质
@@ -149,11 +151,16 @@
 <li><input checked="" disabled="" type="checkbox"> 整合<a href="https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/">MDL</a></li>
 <li><input checked="" disabled="" type="checkbox"> 固有色</li>
 <li><input disabled="" type="checkbox"> 漫反射贴图</li>
+<li><input disabled="" type="checkbox"> 金属色</li>
+<li><input disabled="" type="checkbox"> 金属贴图</li>
+<li><input disabled="" type="checkbox"> 粗糙度</li>
+<li><input disabled="" type="checkbox"> 粗糙贴图</li>
 </ul>
 </li>
 <li>工具
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 将glTF转换为可加载的FlatBuffers二进制</li>
+<li><input checked="" disabled="" type="checkbox"> 场景查看器</li>
 </ul>
 </li>
 </ul>
@@ -175,7 +182,7 @@
 </main>
     <footer>
         <h6> |
-            渲染器：<a target="_blank" href="https://gohugo.io" title="Hugo">Hugo 0.68.3</a> |
+            渲染器：<a target="_blank" href="https://gohugo.io" title="Hugo">Hugo 0.76.5</a> |
             <a href="index.xml">订阅</a></h6>
     </footer>
 </div>
