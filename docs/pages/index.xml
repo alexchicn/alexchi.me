@@ -109,7 +109,39 @@
          <pubDate>Sat, 01 Feb 2020 00:00:00 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
          <guid>/pages/code4game/</guid>
-         <description></description>
+         <description>&lt;blockquote&gt;
+&lt;p&gt;关注于游戏相关开发，为游戏开发者提供一些有用的工具&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;gltf&#34;&gt;&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;这是由&lt;a href=&#34;https://www.khronos.org/&#34;&gt;Khronos&lt;/a&gt;提出的三维场景数据格式，类似于Autodesk的FBX或Pixel的USD，不过该格式对于网页端更友好。
+以下是为支持该格式所开发的项目：&lt;/p&gt;
+&lt;h3 id=&#34;libgltf&#34;&gt;&lt;a href=&#34;https://github.com/code4game/libgltf&#34;&gt;libgltf&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;这是一个C++项目，用于加载和解析&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;文件，同时兼容很多&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;的扩展。&lt;/p&gt;
+&lt;p&gt;此外该项目还包含一个用python开发的一个C++代码生成器，在&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;的格式有更新时可以通过该工具自动更新项目中的C++代码。&lt;/p&gt;
+&lt;h3 id=&#34;libgltf_ue4&#34;&gt;&lt;a href=&#34;https://github.com/code4game/libgltf_ue4&#34;&gt;libgltf_ue4&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一个UE4的第三方库。&lt;/p&gt;
+&lt;h3 id=&#34;gltf-for-ue4&#34;&gt;&lt;a href=&#34;https://github.com/code4game/glTFForUE4&#34;&gt;glTF for UE4&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;一个UE4的插件，当前可以将&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;文件导入到UE4编辑器中。&lt;/p&gt;
+&lt;p&gt;支持以下特性：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;导入格式
+&lt;ul&gt;
+&lt;li&gt;glTF json&lt;/li&gt;
+&lt;li&gt;glTF json-embed&lt;/li&gt;
+&lt;li&gt;glTF binary&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;静态模型&lt;/li&gt;
+&lt;li&gt;骨骼模型&lt;/li&gt;
+&lt;li&gt;骨骼动画&lt;/li&gt;
+&lt;li&gt;Google&amp;rsquo;s Draco模型压缩&lt;/li&gt;
+&lt;li&gt;材质和材质实例&lt;/li&gt;
+&lt;li&gt;纹理贴图（jpg、png和bmp）&lt;/li&gt;
+&lt;li&gt;相对坐标和绝对坐标的切换&lt;/li&gt;
+&lt;li&gt;在场景中生成Actor&lt;/li&gt;
+&lt;li&gt;灯光&lt;/li&gt;
+&lt;/ul&gt;
+</description>
        </item>
        
      </channel>

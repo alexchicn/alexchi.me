@@ -90,10 +90,50 @@
     
 
     
-        <nav id="TableOfContents"></nav>
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#gltf"><a href="https://www.khronos.org/gltf">glTF</a></a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
     
 
-    <div class="article-content"></div>
+    <div class="article-content"><blockquote>
+<p>关注于游戏相关开发，为游戏开发者提供一些有用的工具</p>
+</blockquote>
+<h2 id="gltf"><a href="https://www.khronos.org/gltf">glTF</a></h2>
+<p>这是由<a href="https://www.khronos.org/">Khronos</a>提出的三维场景数据格式，类似于Autodesk的FBX或Pixel的USD，不过该格式对于网页端更友好。
+以下是为支持该格式所开发的项目：</p>
+<h3 id="libgltf"><a href="https://github.com/code4game/libgltf">libgltf</a></h3>
+<p>这是一个C++项目，用于加载和解析<a href="https://www.khronos.org/gltf">glTF</a>文件，同时兼容很多<a href="https://www.khronos.org/gltf">glTF</a>的扩展。</p>
+<p>此外该项目还包含一个用python开发的一个C++代码生成器，在<a href="https://www.khronos.org/gltf">glTF</a>的格式有更新时可以通过该工具自动更新项目中的C++代码。</p>
+<h3 id="libgltf_ue4"><a href="https://github.com/code4game/libgltf_ue4">libgltf_ue4</a></h3>
+<p>一个UE4的第三方库。</p>
+<h3 id="gltf-for-ue4"><a href="https://github.com/code4game/glTFForUE4">glTF for UE4</a></h3>
+<p>一个UE4的插件，当前可以将<a href="https://www.khronos.org/gltf">glTF</a>文件导入到UE4编辑器中。</p>
+<p>支持以下特性：</p>
+<ul>
+<li>导入格式
+<ul>
+<li>glTF json</li>
+<li>glTF json-embed</li>
+<li>glTF binary</li>
+</ul>
+</li>
+<li>静态模型</li>
+<li>骨骼模型</li>
+<li>骨骼动画</li>
+<li>Google&rsquo;s Draco模型压缩</li>
+<li>材质和材质实例</li>
+<li>纹理贴图（jpg、png和bmp）</li>
+<li>相对坐标和绝对坐标的切换</li>
+<li>在场景中生成Actor</li>
+<li>灯光</li>
+</ul>
+</div>
 
     
 
