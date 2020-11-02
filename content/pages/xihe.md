@@ -1,9 +1,10 @@
 ---
 title: "羲和"
 #author: "Alex Chi"
-date: 2020-10-20T13:26:58+08:00
+date: 2020-03-01T00:00:00+08:00
 draft: false
 menu: "main"
+weight: 1
 #image: "images/*.jpg"
 meta: true
 toc: true

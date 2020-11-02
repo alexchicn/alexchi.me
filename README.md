@@ -1,3 +1,3 @@
-# blog.alexchi.me
+# alexchi.me
 
-Visit: [http://blog.alexchi.me](http://blog.alexchi.me)
+Visit: [https://alexchi.me](https://alexchi.me)

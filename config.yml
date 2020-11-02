@@ -11,10 +11,10 @@ googleAnalytics: "UA-37594072-1"
 
 languages:
     zh:
-        title: "Alex Chi的博客"
+        title: "Alex Chi"
         tagline: "一位图形学爱好者的唠叨"
     en:
-        title: "Alex Chi's Blog"
+        title: "Alex Chi"
         tagline: "Chatter from a computer graphics fan"
 
 author:
