@@ -1,9 +1,9 @@
 
    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
      <channel>
-       <title>CUDA on Alex Chi的博客</title>
+       <title>CUDA on Alex Chi</title>
        <link>/tags/cuda/</link>
-       <description>Recent content in CUDA on Alex Chi的博客</description>
+       <description>Recent content in CUDA on Alex Chi</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>

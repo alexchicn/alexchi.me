@@ -1,9 +1,9 @@
 
    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
      <channel>
-       <title>Posts on Alex Chi的博客</title>
+       <title>Posts on Alex Chi</title>
        <link>/posts/</link>
-       <description>Recent content in Posts on Alex Chi的博客</description>
+       <description>Recent content in Posts on Alex Chi</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>

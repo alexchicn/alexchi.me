@@ -1,31 +1,22 @@
 
    <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
      <channel>
-       <title>Pages on Alex Chi的博客</title>
+       <title>Pages on Alex Chi</title>
        <link>/pages/</link>
-       <description>Recent content in Pages on Alex Chi的博客</description>
+       <description>Recent content in Pages on Alex Chi</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
-       <lastBuildDate>Thu, 29 Oct 2020 14:14:05 +0800</lastBuildDate>
+       <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0800</lastBuildDate>
        
            <atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
        
        
        <item>
-         <title>Code 4 Game</title>
-         <link>/pages/code4game/</link>
-         <pubDate>Thu, 29 Oct 2020 14:14:05 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
-         <guid>/pages/code4game/</guid>
-         <description></description>
-       </item>
-       
-       <item>
          <title>羲和</title>
          <link>/pages/xihe/</link>
-         <pubDate>Tue, 20 Oct 2020 13:26:58 +0800</pubDate>
+         <pubDate>Sun, 01 Mar 2020 00:00:00 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
          <guid>/pages/xihe/</guid>
          <description>&lt;p&gt;一个承载最新技术的渲染器。&lt;/p&gt;
@@ -100,6 +91,25 @@
 &lt;li&gt;&lt;a href=&#34;../../posts/xihe-development-log-1st-intro&#34;&gt;“羲和”开发日志（一） 项目介绍&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
+       </item>
+       
+       <item>
+         <title>关于我</title>
+         <link>/pages/about-me/</link>
+         <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/pages/about-me/</guid>
+         <description>&lt;p&gt;曾经做过游戏，后来从事家装，现在关注于光线追踪。&lt;/p&gt;
+</description>
+       </item>
+       
+       <item>
+         <title>Code 4 Game</title>
+         <link>/pages/code4game/</link>
+         <pubDate>Sat, 01 Feb 2020 00:00:00 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <guid>/pages/code4game/</guid>
+         <description></description>
        </item>
        
      </channel>
