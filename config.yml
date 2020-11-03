@@ -18,10 +18,10 @@ languages:
         tagline: "Chatter from a computer graphics fan"
 
 author:
-    name: "Alex Chi的博客"
+    name: "Alex Chi"
     #categories: "/categories"
     #tags: "/tags"
-    user: "http://alexchi.me"
+    user: "https://alexchi.me"
     github: "alexchicn"
     gitlab: "alexchicn"
     twitter: "alexchicn"
@@ -33,12 +33,31 @@ params:
         png: "https://s.gravatar.com/avatar/acf66434234f9fa7785e80d79d880a54?s=80"
 
 markup:
+    #defaultMarkdownHandler: goldmark
+    #defaultMarkdownHandler: blackfriday
+    #defaultMarkdownHandler: mmark
     tableOfContents:
         startLevel: 1
         endLevel: 2
-#    goldmark:
-#        renderer:
-#            unsafe: true
+        ordered: false
+    goldmark:
+        extensions:
+            definitionList: true
+            footnote: true
+            linkify: true
+            strikethrough: true
+            table: true
+            taskList: true
+            typographer: true
+            katex: true
+        parser:
+            attribute: true
+            autoHeadingID: true
+            autoHeadingIDType: github
+        renderer:
+            hardWraps: false
+            unsafe: false
+            xhtml: false
 
 sitemap:
     changefreq: "weekly"

@@ -33,21 +33,7 @@ tags: []
 
 一个UE4的插件，当前可以将[glTF]文件导入到UE4编辑器中。
 
-支持以下特性：
-
-* 导入格式
-    * glTF json
-    * glTF json-embed
-    * glTF binary
-* 静态模型
-* 骨骼模型
-* 骨骼动画
-* Google's Draco模型压缩
-* 材质和材质实例
-* 纹理贴图（jpg、png和bmp）
-* 相对坐标和绝对坐标的切换
-* 在场景中生成Actor
-* 灯光
+详情请见[这里](https://gltf-for-ue4.readthedocs.io/)。
 
 [Khronos]: https://www.khronos.org/
 [glTF]: https://www.khronos.org/gltf
