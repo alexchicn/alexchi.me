@@ -6,8 +6,8 @@
        <description>Recent content in Introduction on Alex Chi</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
-       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
-       <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
+       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
+       <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
        <lastBuildDate>Wed, 28 Oct 2020 22:24:05 +0800</lastBuildDate>
        
            <atom:link href="/tags/introduction/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
          <title>“羲和”开发日志（一） 项目介绍</title>
          <link>/posts/xihe-development-log-1st-intro/</link>
          <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/posts/xihe-development-log-1st-intro/</guid>
          <description>&lt;blockquote&gt;
 &lt;p&gt;本文介绍&lt;a href=&#34;../../pages/xihe/&#34;&gt;羲和&lt;/a&gt;项目的背景、目标和技术，当前项目状态请点&lt;a href=&#34;../../pages/xihe/&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;

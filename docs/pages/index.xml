@@ -6,8 +6,8 @@
        <description>Recent content in Pages on Alex Chi</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
-       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
-       <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
+       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
+       <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
        <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0800</lastBuildDate>
        
            <atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
@@ -17,7 +17,7 @@
          <title>羲和</title>
          <link>/pages/xihe/</link>
          <pubDate>Sun, 01 Mar 2020 00:00:00 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/pages/xihe/</guid>
          <description>&lt;p&gt;一个承载最新技术的渲染器。&lt;/p&gt;
 &lt;h2 id=&#34;特性&#34;&gt;特性&lt;/h2&gt;
@@ -97,7 +97,7 @@
          <title>关于我</title>
          <link>/pages/about-me/</link>
          <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/pages/about-me/</guid>
          <description>&lt;p&gt;曾经做过游戏，后来从事家装，现在关注于光线追踪。&lt;/p&gt;
 </description>
@@ -107,7 +107,7 @@
          <title>Code 4 Game</title>
          <link>/pages/code4game/</link>
          <pubDate>Sat, 01 Feb 2020 00:00:00 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/pages/code4game/</guid>
          <description>&lt;blockquote&gt;
 &lt;p&gt;关注于游戏相关开发，为游戏开发者提供一些有用的工具&lt;/p&gt;
@@ -122,25 +122,7 @@
 &lt;p&gt;一个UE4的第三方库。&lt;/p&gt;
 &lt;h3 id=&#34;gltf-for-ue4&#34;&gt;&lt;a href=&#34;https://github.com/code4game/glTFForUE4&#34;&gt;glTF for UE4&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;一个UE4的插件，当前可以将&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;文件导入到UE4编辑器中。&lt;/p&gt;
-&lt;p&gt;支持以下特性：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;导入格式
-&lt;ul&gt;
-&lt;li&gt;glTF json&lt;/li&gt;
-&lt;li&gt;glTF json-embed&lt;/li&gt;
-&lt;li&gt;glTF binary&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;静态模型&lt;/li&gt;
-&lt;li&gt;骨骼模型&lt;/li&gt;
-&lt;li&gt;骨骼动画&lt;/li&gt;
-&lt;li&gt;Google&amp;rsquo;s Draco模型压缩&lt;/li&gt;
-&lt;li&gt;材质和材质实例&lt;/li&gt;
-&lt;li&gt;纹理贴图（jpg、png和bmp）&lt;/li&gt;
-&lt;li&gt;相对坐标和绝对坐标的切换&lt;/li&gt;
-&lt;li&gt;在场景中生成Actor&lt;/li&gt;
-&lt;li&gt;灯光&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;详情请见&lt;a href=&#34;https://gltf-for-ue4.readthedocs.io/&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
 </description>
        </item>
        

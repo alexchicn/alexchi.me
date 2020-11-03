@@ -190,6 +190,16 @@
     <lastmod>2020-02-01T00:00:00+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/pages/code4game/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/pages/code4game/"
+                />
   </url>
   
 </urlset>

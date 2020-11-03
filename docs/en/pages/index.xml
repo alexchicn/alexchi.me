@@ -6,9 +6,9 @@
        <description>Recent content in Pages on Alex Chi</description>
        <generator>Hugo -- gohugo.io</generator>
        <language>zh-cn</language>
-       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi的博客)</managingEditor>
-       <webMaster>mailto:alexchicn@gmail.com (Alex Chi的博客)</webMaster>
-       <lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0800</lastBuildDate>
+       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
+       <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
+       <lastBuildDate>Sat, 01 Feb 2020 00:00:00 +0800</lastBuildDate>
        
            <atom:link href="/en/pages/index.xml" rel="self" type="application/rss+xml" />
        
@@ -17,9 +17,31 @@
          <title>About me</title>
          <link>/en/pages/about-me/</link>
          <pubDate>Wed, 01 Jan 2020 00:00:00 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi的博客)</author>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/en/pages/about-me/</guid>
          <description></description>
+       </item>
+       
+       <item>
+         <title>Code 4 Game</title>
+         <link>/en/pages/code4game/</link>
+         <pubDate>Sat, 01 Feb 2020 00:00:00 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/en/pages/code4game/</guid>
+         <description>&lt;blockquote&gt;
+&lt;p&gt;Focus on the development of the game.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;gltf&#34;&gt;&lt;a href=&#34;https://www.khronos.org/gltf&#34;&gt;glTF&lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It represents the 3D scene, likes Autodesk&amp;rsquo;s FBX or Pixel&amp;rsquo;s USD. &lt;a href=&#34;https://www.khronos.org/&#34;&gt;Khronos&lt;/a&gt; publishes and maintains it. The glTF is good at the website. Below are some projects for it.&lt;/p&gt;
+&lt;h3 id=&#34;libgltf&#34;&gt;&lt;a href=&#34;https://github.com/code4game/libgltf&#34;&gt;libgltf&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;This is a C++ project. It can load and parse the glTF file.&lt;/p&gt;
+&lt;p&gt;In the project, it contains a C++ generator. The generator can parse the glTF scheme and create the newest C++ code.&lt;/p&gt;
+&lt;h3 id=&#34;libgltf_ue4&#34;&gt;&lt;a href=&#34;https://github.com/code4game/libgltf_ue4&#34;&gt;libgltf_ue4&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It is a third-party library for UE4.&lt;/p&gt;
+&lt;h3 id=&#34;gltf-for-ue4&#34;&gt;&lt;a href=&#34;https://github.com/code4game/glTFForUE4&#34;&gt;glTF for UE4&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It is a UE4 plugin and imports the glTF to UE4 Editor.&lt;/p&gt;
+&lt;p&gt;See more in &lt;a href=&#34;https://gltf-for-ue4.readthedocs.io/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
        </item>
        
      </channel>
