@@ -64,6 +64,16 @@ tags: []
 
 * [“羲和”开发日志（一） 项目介绍](../../posts/xihe-development-log-1st-intro)
 
+## 渲染结果
+
+### 2020-11-03
+
+![xihe-result-20201103a](/images/xihe-result-20201103a.jpg)
+
+### 2020-11-01
+
+![xihe-result-20201103a](/images/xihe-intro-result.jpg)
+
 [MDL]: https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/
 [OptiX]: https://developer.nvidia.com/optix
 [CUDA]: https://developer.nvidia.com/cuda-toolkit
