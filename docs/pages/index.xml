@@ -20,46 +20,7 @@
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/pages/xihe/</guid>
          <description>&lt;p&gt;一个承载最新技术的渲染器。&lt;/p&gt;
-&lt;h2 id=&#34;特性&#34;&gt;特性&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;材质（依赖&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/&#34;&gt;MDL&lt;/a&gt;）
-&lt;ul&gt;
-&lt;li&gt;UV&lt;/li&gt;
-&lt;li&gt;漫反射贴图&lt;/li&gt;
-&lt;li&gt;金属性&lt;/li&gt;
-&lt;li&gt;粗糙度&lt;/li&gt;
-&lt;li&gt;法线贴图&lt;/li&gt;
-&lt;li&gt;法线强度&lt;/li&gt;
-&lt;li&gt;自发光&lt;/li&gt;
-&lt;li&gt;折射率&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;灯光
-&lt;ul&gt;
-&lt;li&gt;平行光&lt;/li&gt;
-&lt;li&gt;点光&lt;/li&gt;
-&lt;li&gt;射灯&lt;/li&gt;
-&lt;li&gt;球形光&lt;/li&gt;
-&lt;li&gt;矩形面光&lt;/li&gt;
-&lt;li&gt;IES&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;摄像机
-&lt;ul&gt;
-&lt;li&gt;透视&lt;/li&gt;
-&lt;li&gt;平视&lt;/li&gt;
-&lt;li&gt;鱼眼&lt;/li&gt;
-&lt;li&gt;全景&lt;/li&gt;
-&lt;li&gt;焦散&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;通用
-&lt;ul&gt;
-&lt;li&gt;背景图&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;进展&#34;&gt;进展&lt;/h2&gt;
+&lt;h2 id=&#34;特性和进展&#34;&gt;特性和进展&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 构建光线追踪基础管线
 &lt;ul&gt;
@@ -88,7 +49,8 @@
 &lt;/ul&gt;
 &lt;h2 id=&#34;文章&#34;&gt;文章&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;../../posts/xihe-development-log-1st-intro&#34;&gt;“羲和”开发日志（一） 项目介绍&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/posts/xihe-development-log-2-direction-light&#34;&gt;羲和开发日志（二） 平行光&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/posts/xihe-development-log-1st-intro&#34;&gt;羲和开发日志（一） 项目介绍&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;渲染结果&#34;&gt;渲染结果&lt;/h2&gt;
 &lt;h3 id=&#34;2020-11-03&#34;&gt;2020-11-03&lt;/h3&gt;

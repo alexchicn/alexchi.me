@@ -28,7 +28,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -45,7 +45,7 @@
   
   <url>
     <loc>/categories/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -58,6 +58,121 @@
                 hreflang="zh"
                 href="/categories/"
                 />
+  </url>
+  
+  <url>
+    <loc>/categories/development/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/directional-light/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/lighting/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ray-tracing/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/render/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>/categories/xihe/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E5%B9%B3%E8%A1%8C%E5%85%89/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E6%B8%B2%E6%9F%93/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/%E7%81%AF%E5%85%89/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/%E7%BE%B2%E5%92%8C/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/posts/xihe-development-log-2-direction-light/</loc>
+    <lastmod>2020-11-03T10:12:39+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -89,58 +204,6 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ray-tracing/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/render/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>/categories/xihe/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/posts/xihe-development-log-1st-intro/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/%E4%BB%8B%E7%BB%8D/</loc>
     <lastmod>2020-10-28T22:24:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -148,21 +211,7 @@
   </url>
   
   <url>
-    <loc>/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/%E6%B8%B2%E6%9F%93/</loc>
-    <lastmod>2020-10-28T22:24:05+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/%E7%BE%B2%E5%92%8C/</loc>
+    <loc>/posts/xihe-development-log-1st-intro/</loc>
     <lastmod>2020-10-28T22:24:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

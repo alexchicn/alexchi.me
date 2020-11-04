@@ -1,0 +1,138 @@
+
+   <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+     <channel>
+       <title>Development on Alex Chi</title>
+       <link>/categories/development/</link>
+       <description>Recent content in Development on Alex Chi</description>
+       <generator>Hugo -- gohugo.io</generator>
+       <language>zh-cn</language>
+       <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
+       <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
+       <lastBuildDate>Tue, 03 Nov 2020 10:12:39 +0800</lastBuildDate>
+       
+           <atom:link href="/categories/development/index.xml" rel="self" type="application/rss+xml" />
+       
+       
+       <item>
+         <title>羲和开发日志（二） 平行光</title>
+         <link>/posts/xihe-development-log-2-direction-light/</link>
+         <pubDate>Tue, 03 Nov 2020 10:12:39 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/posts/xihe-development-log-2-direction-light/</guid>
+         <description>&lt;h2 id=&#34;什么平行光&#34;&gt;什么平行光&lt;/h2&gt;
+&lt;p&gt;光都是由光源体发射出来的，光源体形状和物体形状决定了物体影子。&lt;/p&gt;
+&lt;p&gt;平行光其实是为了模拟远距离巨型光源体而构建的概念，这样可以减少对光源体的碰撞运算。
+现实中太阳对于地球来讲就是这么一个光源体，远而且巨大。&lt;/p&gt;
+&lt;h2 id=&#34;相关参数&#34;&gt;相关参数&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;位置
+&lt;ul&gt;
+&lt;li&gt;该参数与平行光无关，但是为了便于选取和编辑，都会保留此参数&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;方向
+&lt;ul&gt;
+&lt;li&gt;决定了模型的哪些面（依赖法线）可以被照亮&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;颜色
+&lt;ul&gt;
+&lt;li&gt;光的颜色&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;强度
+&lt;ul&gt;
+&lt;li&gt;光的亮度&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;散射角度
+&lt;ul&gt;
+&lt;li&gt;即一个物体可以从什么角度范围受到光源体的照射&lt;/li&gt;
+&lt;li&gt;简单来讲散射角度越大，物体可能受到的光照就越多&lt;/li&gt;
+&lt;li&gt;下面有展示&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;效果展示&#34;&gt;效果展示&lt;/h2&gt;
+&lt;p&gt;方向、颜色和强度是常识，这里就不进行展示。&lt;/p&gt;
+&lt;h3 id=&#34;散射角度&#34;&gt;散射角度&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;从百叶窗在墙上的阴影形态可以看出光源的大小。&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;散射角度为0，则有下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle0.jpg&#34; alt=&#34;xihe-result-light-direction-angle0&#34;&gt;&lt;/p&gt;
+&lt;p&gt;散射角度为2，则有下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle2.jpg&#34; alt=&#34;xihe-result-light-direction-angle2&#34;&gt;&lt;/p&gt;
+&lt;p&gt;散射角度为17，则有下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle17.jpg&#34; alt=&#34;xihe-result-light-direction-angle17&#34;&gt;&lt;/p&gt;
+&lt;p&gt;散射角度为57，则有下图：&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle57.jpg&#34; alt=&#34;xihe-result-light-direction-angle57&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;相关场景模型取自&lt;a href=&#34;https://blendswap.com/blend/13363&#34;&gt;The Breakfast Room(License: CC-BY)&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+       </item>
+       
+       <item>
+         <title>羲和开发日志（一） 项目介绍</title>
+         <link>/posts/xihe-development-log-1st-intro/</link>
+         <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/posts/xihe-development-log-1st-intro/</guid>
+         <description>&lt;blockquote&gt;
+&lt;p&gt;本文介绍&lt;a href=&#34;../../pages/xihe/&#34;&gt;羲和&lt;/a&gt;项目的背景、目标和技术，当前项目状态请点&lt;a href=&#34;../../pages/xihe/&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;h4 id=&#34;关于命名&#34;&gt;关于命名&lt;/h4&gt;
+&lt;p&gt;“&lt;strong&gt;羲和&lt;/strong&gt;”是&lt;a href=&#34;https://baike.baidu.com/item/%E7%BE%B2%E5%92%8C/278594&#34;&gt;中国古代神话的太阳女神&lt;/a&gt;，是善于运用光的神。
+渲染离不开对光的研究，而光学追踪更是如此，所以选用“&lt;strong&gt;羲和&lt;/strong&gt;”来命名这个项目。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;背景&#34;&gt;背景&lt;/h2&gt;
+&lt;p&gt;最近几年随着GPU性能的提升和技术的迭代，原本费时费力的光线追踪技术被引入到了游戏中。同时也出现了大量相关项目，推动着渲染技术向前发展。
+正因如此也让光线追踪技术变得不那么难，有很多优秀的开源项目帮助我们快速地搭建出属于自己的渲染器。&lt;/p&gt;
+&lt;p&gt;本人过去几年搞游戏开发，近几年从事家装软件的开发，参与的项目都十分看重画面效果，所以累积了不少渲染技术和想法。
+也构建过自己的渲染器，但是在看到&lt;a href=&#34;https://www.unrealengine.com/&#34;&gt;UnrealEngine&lt;/a&gt;和&lt;a href=&#34;https://www.cryengine.com/&#34;&gt;CryEngine&lt;/a&gt;都开源了自己的引擎，就放弃了自己的项目😢。&lt;/p&gt;
+&lt;p&gt;不过现在在光线追踪方面有了大量开源项目的支撑，可以让我更专注于渲染核心算法，根据自己所积累的技术自由地实现想要的功能😄。&lt;/p&gt;
+&lt;h3 id=&#34;渲染器&#34;&gt;渲染器&lt;/h3&gt;
+&lt;p&gt;现在市面上的渲染器有很多，针对不同市场各自的架构也不同。以下是个人对一些渲染器的了解和看法：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;是由&lt;a href=&#34;https://www.nvidia.com/&#34;&gt;NVIDIA&lt;/a&gt;提供的光线追踪技术。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OpenShaderLanguage&lt;/a&gt; (&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OSL&lt;/a&gt;)是由&lt;a href=&#34;http://opensource.imageworks.com/&#34;&gt;ImageWorks&lt;/a&gt; (来自索尼影视)开源的一款影视级着色语言。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;appleseed&#34;&gt;&lt;a href=&#34;https://appleseedhq.net/&#34;&gt;Appleseed&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;开源项目，有基于CPU进行渲染，具有出色的性能，项目的架构也很有条理。
+它是&lt;a href=&#34;https://www.gafferhq.org/&#34;&gt;Graffer&lt;/a&gt;的默认渲染器，要知道不少影视作品都会使用&lt;a href=&#34;https://www.gafferhq.org/&#34;&gt;Graffer&lt;/a&gt;，如：《侏罗纪世界2》、《迷失太空》《金刚狼3》、《权力游戏》等。&lt;/p&gt;
+&lt;h4 id=&#34;mitsuba2&#34;&gt;&lt;a href=&#34;https://github.com/mitsuba-renderer/mitsuba2&#34;&gt;Mitsuba2&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;开源项目，由几位行业知名的教授（包括《&lt;a href=&#34;http://www.pbr-book.org/&#34;&gt;Physically Based Rendering: From Theory to Implementation&lt;/a&gt;》的几位著作者）共同构建。
+既可以进行CPU渲染，也可以通过&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;进行GPU渲染。它非常值得研究和学习。&lt;/p&gt;
+&lt;h4 id=&#34;v-ray&#34;&gt;&lt;a href=&#34;https://www.chaosgroup.com/&#34;&gt;V-Ray&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;建筑渲染的翘楚，它与很多公司都有合作，像&lt;a href=&#34;https://www.kujiale.com/&#34;&gt;酷家乐&lt;/a&gt;和&lt;a href=&#34;https://www.3vjia.com/&#34;&gt;三维家&lt;/a&gt;都有使用此软件。这么多年以来积累了大量经验，渲染效果也是行业标杆。
+在最新版中印象最深的是能够输出多层图像到PS，让后期处理变得更加简单。&lt;/p&gt;
+&lt;h4 id=&#34;iray&#34;&gt;&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/iray/&#34;&gt;Iray&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.nvidia.com/&#34;&gt;NVIDIA&lt;/a&gt;开发的渲染库，需要购买商业授权。
+从介绍来看既可以实时渲染也可以进行影视渲染，功能十分强大，像知名的&lt;a href=&#34;https://www.keyshot.com/&#34;&gt;KeyShot&lt;/a&gt;就是基于此库开发的。&lt;/p&gt;
+&lt;h4 id=&#34;octanerender&#34;&gt;&lt;a href=&#34;https://home.otoy.com/render/octane-render/&#34;&gt;OctaneRender&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;算是较早使用GPU进行渲染的软件，其渲染内核基于&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;和&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OSL&lt;/a&gt;。一方面它在运用GPU加速方面十分出色，另一方面&lt;a href=&#34;https://github.com/imageworks/OpenShadingLanguage/&#34;&gt;OSL&lt;/a&gt;使得其使用起来更方便快捷。&lt;/p&gt;
+&lt;p&gt;它有几种渲染内核，其中&lt;strong&gt;Path Tracing&lt;/strong&gt;是最耗时但效果最真实的，每种内核都是在光栅化和光线追踪之间进行取舍。
+用户可以通过&lt;strong&gt;Direct Lighting&lt;/strong&gt;进行快速地预览，通过&lt;strong&gt;Path Tracing&lt;/strong&gt;得到最终的产品。
+另外最近几年又针对AMD的GPU进行了开发使得它能够脱离&lt;a href=&#34;https://www.nvidia.com/&#34;&gt;NVIDIA&lt;/a&gt;的&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;在更多GPU上运行。&lt;/p&gt;
+&lt;h4 id=&#34;unrealengine&#34;&gt;&lt;a href=&#34;https://www.unrealengine.com/&#34;&gt;UnrealEngine&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;严格来讲UE4不算是渲染器，是一个游戏引擎，但是近几年来它以出色的实时渲染效果和开源政策，得到了市场的青睐。
+各个行业都拿它来秀效果，从游戏到房地产，从影视到智慧城市，都想和它有交集。
+不过在经过一段时间的磨合后会发现UE4的开发难度真的不低，对于软件开发和技术美术来说都是不小的挑战。
+要知道&lt;strong&gt;各个行业的需求不仅仅是画面和效果，还包含很多特有的功能，而一个游戏引擎是无法满足的，所以找到合适的最重要。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;前段时间UE5的演示也震撼了很多人，个人觉得&lt;a href=&#34;https://www.epicgames.com/&#34;&gt;EpicGames&lt;/a&gt;在实时渲染方面运用了更多光线追踪原理，使得实时渲染进一步靠近光线追踪。&lt;/p&gt;
+&lt;h2 id=&#34;目的&#34;&gt;目的&lt;/h2&gt;
+&lt;p&gt;市面上已经有这么多渲染器为什么还要再做一个呢？为什么是基于光线追踪呢？
+的确市面上有很多非常棒的渲染器，但是想要实现自己的算法并不简单。
+开源渲染器都有自己的架构，去改动其渲染内核会花费很大的精力，而构建一个新的光线追踪渲染器反而更简单。
+构建一个完全基于光线追踪的渲染器也更符合未来发展的方向，。
+所以这个项目的目的就是为了能够承载更多新的算法和技术，并快速验证理论，提高理论到实践的转换率，将新算法和技术更有效地运用到行业中。&lt;/p&gt;
+&lt;h2 id=&#34;技术&#34;&gt;技术&lt;/h2&gt;
+&lt;p&gt;通过NVIDIA的&lt;a href=&#34;https://developer.nvidia.com/optix&#34;&gt;OptiX&lt;/a&gt;和&lt;a href=&#34;https://developer.nvidia.com/cuda-toolkit&#34;&gt;CUDA&lt;/a&gt;实现光线追踪算法，并利用&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/&#34;&gt;MDL&lt;/a&gt;来表达材质。
+这些看上去可能和&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/iray/&#34;&gt;Iray&lt;/a&gt;相同，但是要知道&lt;a href=&#34;https://www.nvidia.com/en-us/design-visualization/iray/&#34;&gt;Iray&lt;/a&gt;是受限于NVIDIA设备的，而本项目将来会运行在其它设备上。&lt;/p&gt;
+&lt;p&gt;附：目前渲染测试效果
+&lt;img src=&#34;/images/xihe-intro-result.jpg&#34; alt=&#34;xihe-intro-result&#34;&gt;&lt;/p&gt;
+</description>
+       </item>
+       
+     </channel>
+   </rss>

@@ -8,24 +8,42 @@
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
-       <lastBuildDate>Wed, 28 Oct 2020 22:24:05 +0800</lastBuildDate>
+       <lastBuildDate>Tue, 03 Nov 2020 10:12:39 +0800</lastBuildDate>
        
            <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
        
        
        <item>
+         <title>Development</title>
+         <link>/categories/development/</link>
+         <pubDate>Tue, 03 Nov 2020 10:12:39 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/categories/development/</guid>
+         <description></description>
+       </item>
+       
+       <item>
          <title>XiHe</title>
          <link>/categories/xihe/</link>
-         <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
+         <pubDate>Tue, 03 Nov 2020 10:12:39 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/categories/xihe/</guid>
          <description></description>
        </item>
        
        <item>
+         <title>开发</title>
+         <link>/categories/%E5%BC%80%E5%8F%91/</link>
+         <pubDate>Tue, 03 Nov 2020 10:12:39 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/categories/%E5%BC%80%E5%8F%91/</guid>
+         <description></description>
+       </item>
+       
+       <item>
          <title>羲和</title>
          <link>/categories/%E7%BE%B2%E5%92%8C/</link>
-         <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
+         <pubDate>Tue, 03 Nov 2020 10:12:39 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/categories/%E7%BE%B2%E5%92%8C/</guid>
          <description></description>

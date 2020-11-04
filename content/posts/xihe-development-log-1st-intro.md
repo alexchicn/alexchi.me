@@ -1,5 +1,5 @@
 ---
-title: "“羲和”开发日志（一） 项目介绍"
+title: "羲和开发日志（一） 项目介绍"
 #author: "Alex Chi"
 date: 2020-10-28T22:24:05+08:00
 draft: false
@@ -7,8 +7,8 @@ image: "images/xihe-intro.jpg"
 meta: false
 toc: true
 comment: true
+categories: [ "羲和", "XiHe", "开发", "Development" ]
 tags: [ "渲染", "光线追踪", "介绍", "Render", "Ray Tracing", "CUDA", "OptiX", "MDL", "Introduction" ]
-categories: [ "羲和", "XiHe" ]
 ---
 
 > 本文介绍[羲和]项目的背景、目标和技术，当前项目状态请点[这里](../../pages/xihe/)。
