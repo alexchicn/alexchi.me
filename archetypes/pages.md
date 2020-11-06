@@ -3,7 +3,7 @@ title: "{{ replace .TranslationBaseName "-" " " | title }}"
 date: {{ .Date }}
 draft: true
 menu: "main"
-#image: "images/*.jpg"
+#image: "/images/*.jpg"
 meta: true
 toc: true
 comment: false

@@ -4,7 +4,7 @@ date: 2020-02-01T00:00:00+08:00
 #draft: true
 menu: "main"
 weight: 0
-#image: "images/*.jpg"
+#image: "/images/*.jpg"
 meta: true
 toc: true
 comment: false

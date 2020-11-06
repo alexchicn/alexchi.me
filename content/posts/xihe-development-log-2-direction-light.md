@@ -3,7 +3,7 @@ title: "羲和开发日志（二） 平行光"
 #author: "Alex Chi"
 date: 2020-11-03T10:12:39+08:00
 draft: false
-image: "images/xihe-result-light-direction.jpg"
+image: "/images/xihe-result-light-direction.jpg"
 math: true
 toc: true
 comment: true

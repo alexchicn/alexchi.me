@@ -3,7 +3,7 @@ title: "关于评论系统"
 date: 2020-10-12T22:56:04+08:00
 draft: true
 #menu: "main"
-image: "images/comment-utterances.jpg"
+image: "/images/comment-utterances.jpg"
 comment: true
 categories: [ "网站", "website"]
 tags: [ "评论", "博客", "utteranc", "comment", "blog"]

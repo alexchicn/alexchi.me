@@ -3,7 +3,7 @@ title: "羲和开发日志（三） 点光"
 #author: "Alex Chi"
 date: 2020-11-06T21:02:36+08:00
 draft: false
-image: "images/xihe-result-light-point.jpg"
+image: "/images/xihe-result-light-point.jpg"
 toc: true
 comment: true
 categories: [ "羲和", "XiHe", "开发", "Development" ]

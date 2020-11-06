@@ -5,7 +5,7 @@ date: 2020-03-01T00:00:00+08:00
 draft: false
 menu: "main"
 weight: 1
-#image: "images/*.jpg"
+#image: "/images/*.jpg"
 meta: true
 toc: true
 categories: []
