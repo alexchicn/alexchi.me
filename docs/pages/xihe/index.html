@@ -36,17 +36,17 @@
         
         
         
-        <li><a target="_blank" href="https://alexchi.me"><i class="fas fa-user" aria-hidden="true"></i></a></li>
-        
-        
-        <li><a target="_blank" href="https://twitter.com/alexchicn"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-        
+        <li><a href="/pages/about-me"><i class="fas fa-user" aria-hidden="true"></i></a></li>
         
         
         <li><a target="_blank" href="https://github.com/alexchicn"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
         
         
         <li><a target="_blank" href="https://gitlab.com/alexchicn"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+        
+        
+        <li><a target="_blank" href="https://twitter.com/alexchicn"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        
         
         
         <li><a target="_blank" href="mailto:alexchicn@gmail.com"><i class="fas fa-at" aria-hidden="true"></i></a></li>
@@ -89,6 +89,8 @@
 
 <article>
 
+    
+
     <h1>羲和</h1>
 
     
@@ -100,17 +102,14 @@
       <ul>
         <li><a href="#特性和进展">特性和进展</a></li>
         <li><a href="#相关文章">相关文章</a></li>
-        <li><a href="#渲染结果">渲染结果</a></li>
+        <li><a href="#渲染效果展示">渲染效果展示</a></li>
       </ul>
     </li>
   </ul>
 </nav>
     
 
-    <div class="article-content"><p>一个承载最新技术的渲染器。</p>
-<blockquote>
-<p>此页面持续更新中&hellip;</p>
-</blockquote>
+    <div class="article-content"><p>这是一个<strong>渲染服务</strong>项目，希望未来能够以云服务形式让更多人轻易地接触到高质量渲染效果，并且通过不断地迭代技术来提升其易用性。</p>
 <h2 id="特性和进展">特性和进展</h2>
 <ul>
 <li>基础
@@ -119,6 +118,10 @@
 <li><input checked="" disabled="" type="checkbox"> 整合<a href="https://developer.nvidia.com/optix">OptiX</a> 7.0</li>
 <li><input checked="" disabled="" type="checkbox"> 整合<a href="https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/">MDL</a></li>
 <li><input checked="" disabled="" type="checkbox"> 使用<a href="https://google.github.io/flatbuffers/">FlatBuffers</a>定义渲染数据</li>
+<li><input checked="" disabled="" type="checkbox"> 构建光线追踪算法框架</li>
+<li><input disabled="" type="checkbox"> 检查显卡驱动和CUDA版本</li>
+<li><input disabled="" type="checkbox"> 支持多GPU</li>
+<li><input disabled="" type="checkbox"> 渲染服务</li>
 </ul>
 </li>
 <li>灯光
@@ -128,25 +131,27 @@
 <li><input checked="" disabled="" type="checkbox"> 颜色</li>
 <li><input checked="" disabled="" type="checkbox"> 强度</li>
 <li><input checked="" disabled="" type="checkbox"> 方向</li>
-<li><input checked="" disabled="" type="checkbox"> 散射</li>
-<li><input checked="" disabled="" type="checkbox"> 距离</li>
+<li><input checked="" disabled="" type="checkbox"> 散射角</li>
+<li><input checked="" disabled="" type="checkbox"> 长度</li>
 </ul>
 </li>
 <li>点光
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 颜色</li>
 <li><input checked="" disabled="" type="checkbox"> 强度</li>
-<li><input disabled="" type="checkbox"> 发光体半径</li>
-<li><input checked="" disabled="" type="checkbox"> 距离</li>
+<li><input checked="" disabled="" type="checkbox"> 半径</li>
+<li><input checked="" disabled="" type="checkbox"> 长度</li>
 </ul>
 </li>
 <li>射灯
 <ul>
 <li><input disabled="" type="checkbox"> 颜色</li>
 <li><input disabled="" type="checkbox"> 强度</li>
-<li><input disabled="" type="checkbox"> 发光体半径</li>
-<li><input disabled="" type="checkbox"> 距离</li>
+<li><input disabled="" type="checkbox"> 半径</li>
+<li><input disabled="" type="checkbox"> 长度</li>
 <li><input disabled="" type="checkbox"> 方向</li>
+<li><input disabled="" type="checkbox"> 内角</li>
+<li><input disabled="" type="checkbox"> 外角</li>
 <li><input disabled="" type="checkbox"> IES</li>
 </ul>
 </li>
@@ -155,7 +160,6 @@
 </li>
 <li>材质
 <ul>
-<li><input checked="" disabled="" type="checkbox"> 整合<a href="https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/">MDL</a></li>
 <li><input checked="" disabled="" type="checkbox"> 固有色</li>
 <li><input disabled="" type="checkbox"> 漫反射贴图</li>
 <li><input checked="" disabled="" type="checkbox"> 金属色</li>
@@ -163,8 +167,10 @@
 <li><input checked="" disabled="" type="checkbox"> 粗糙度/光滑度</li>
 <li><input disabled="" type="checkbox"> 粗糙贴图/光滑贴图</li>
 <li><input checked="" disabled="" type="checkbox"> 自发光</li>
+<li><input disabled="" type="checkbox"> 半透明</li>
 <li><input disabled="" type="checkbox"> 折射率</li>
-<li><input disabled="" type="checkbox"> 遮罩</li>
+<li><input disabled="" type="checkbox"> 遮罩贴图</li>
+<li><input disabled="" type="checkbox"> 多层重叠</li>
 </ul>
 </li>
 <li>模型
@@ -227,13 +233,30 @@
 </li>
 <li>工具
 <ul>
-<li>将glTF转换为可加载的<a href="https://google.github.io/flatbuffers/">FlatBuffers</a>二进制数据
+<li>构建<a href="https://google.github.io/flatbuffers/">FlatBuffers</a>场景数据
+<ul>
+<li>通过<a href="https://khronos.org/gltf">glTF</a>
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 平行光</li>
-<li><input disabled="" type="checkbox"> 点光</li>
+<li><input checked="" disabled="" type="checkbox"> 点光</li>
+<li><input disabled="" type="checkbox"> 射灯</li>
+<li><input disabled="" type="checkbox"> 面光</li>
 <li><input disabled="" type="checkbox"> glTF材质</li>
 <li><input checked="" disabled="" type="checkbox"> 模型</li>
 <li><input checked="" disabled="" type="checkbox"> 透视相机</li>
+</ul>
+</li>
+<li>通过<a href="http://blender.org/">Blender</a>
+<ul>
+<li><input disabled="" type="checkbox"> 平行光</li>
+<li><input disabled="" type="checkbox"> 点光</li>
+<li><input disabled="" type="checkbox"> 射灯</li>
+<li><input disabled="" type="checkbox"> 面光</li>
+<li><input disabled="" type="checkbox"> 内置材质</li>
+<li><input checked="" disabled="" type="checkbox"> 模型</li>
+<li><input checked="" disabled="" type="checkbox"> 透视相机</li>
+</ul>
+</li>
 </ul>
 </li>
 <li><input checked="" disabled="" type="checkbox"> 场景查看器</li>
@@ -242,12 +265,14 @@
 </ul>
 <h2 id="相关文章">相关文章</h2>
 <ul>
-<li><a href="/posts/xihe-development-log-2-direction-light">羲和开发日志（二） 平行光</a></li>
 <li><a href="/posts/xihe-development-log-1st-intro">羲和开发日志（一） 项目介绍</a></li>
+<li><a href="/posts/xihe-development-log-2-direction-light">羲和开发日志（二） 平行光</a></li>
+<li><a href="/posts/xihe-development-log-3-point-light">羲和开发日志（三） 点光</a></li>
 </ul>
-<h2 id="渲染结果">渲染结果</h2>
+<h2 id="渲染效果展示">渲染效果展示</h2>
 <h3 id="2020-11-06">2020-11-06</h3>
-<p><img src="/images/xihe-result-20201106.jpg" alt="xihe-result-20201106"></p>
+<p><img src="/images/xihe-result-20201106a.jpg" alt="xihe-result-20201106a"></p>
+<p><img src="/images/xihe-result-20201106b.jpg" alt="xihe-result-20201106b"></p>
 <p><em>相关场景模型取自<a href="https://blendswap.com/blend/13363">The Breakfast Room(License: CC-BY)</a></em></p>
 <h3 id="2020-11-03">2020-11-03</h3>
 <p><img src="/images/xihe-result-20201103a.jpg" alt="xihe-result-20201103a"></p>

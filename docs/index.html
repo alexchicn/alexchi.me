@@ -36,17 +36,17 @@
         
         
         
-        <li><a target="_blank" href="https://alexchi.me"><i class="fas fa-user" aria-hidden="true"></i></a></li>
-        
-        
-        <li><a target="_blank" href="https://twitter.com/alexchicn"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-        
+        <li><a href="/pages/about-me"><i class="fas fa-user" aria-hidden="true"></i></a></li>
         
         
         <li><a target="_blank" href="https://github.com/alexchicn"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
         
         
         <li><a target="_blank" href="https://gitlab.com/alexchicn"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+        
+        
+        <li><a target="_blank" href="https://twitter.com/alexchicn"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        
         
         
         <li><a target="_blank" href="mailto:alexchicn@gmail.com"><i class="fas fa-at" aria-hidden="true"></i></a></li>
@@ -92,6 +92,91 @@
         
         
         
+        
+        
+        
+        <li >
+            <a href="/posts/xihe-development-log-3-point-light/" title="羲和开发日志（三） 点光">
+                
+                
+                <image src="images/xihe-result-light-point.jpg"></image>
+                
+                
+                <h1>羲和开发日志（三） 点光</h1> 
+            </a>
+            <aside>
+    <ul>
+        
+        <li>
+            日期：<time class="post-date" datetime="2020-11-06T21:02:36&#43;08:00">2020-11-06</time>
+        </li>
+        
+        <li>
+            分类：
+            <em>
+                
+                    
+                    <a href="/categories/%E7%BE%B2%E5%92%8C">@羲和</a>
+                
+                    , 
+                    <a href="/categories/xihe">@XiHe</a>
+                
+                    , 
+                    <a href="/categories/%E5%BC%80%E5%8F%91">@开发</a>
+                
+                    , 
+                    <a href="/categories/development">@Development</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            标签：
+            <em>
+                
+                    
+                    <a href="/tags/%E6%B8%B2%E6%9F%93">#渲染</a>
+                
+                    , 
+                    <a href="/tags/render">#Render</a>
+                
+                    , 
+                    <a href="/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA">#光线追踪</a>
+                
+                    , 
+                    <a href="/tags/ray-tracing">#Ray Tracing</a>
+                
+                    , 
+                    <a href="/tags/%E7%81%AF%E5%85%89">#灯光</a>
+                
+                    , 
+                    <a href="/tags/light">#Light</a>
+                
+                    , 
+                    <a href="/tags/%E7%82%B9%E5%85%89">#点光</a>
+                
+                    , 
+                    <a href="/tags/point-light">#Point Light</a>
+                
+            </em>
+        </li>
+        
+        </li>
+
+        <li>阅读1分钟</li>
+    </ul>
+</aside>
+
+            <p>点光 图形学中，通过点光来模拟小型发光体，如：灯泡、火把、蜡烛等。 这类发光体的特点是从自身表面向周围所有物体发射光线，所以在光线追踪时需要在发光体表面进行采样。 通常使用球体模拟此类物体的形状，根据半径在球表面随机采样。
+相关参数  颜色 - 光源颜色 强度 - 光源亮度 位置 - 光源位置 半径  用于模拟光源尺寸 尺寸不同造成的阴影也不同 参见下图    效果展示 颜色、强度和位置是常识，这里就不进行展示。
+半径  通过影子柔和程度可以看出点光半径的大小
+ 半径为0cm，如下图：</p>
+            
+            <a href="/posts/xihe-development-log-3-point-light/">阅读更多、、、</a>
+            
+        </li>
         
         
         
@@ -152,7 +237,7 @@
                     <a href="/tags/%E7%81%AF%E5%85%89">#灯光</a>
                 
                     , 
-                    <a href="/tags/lighting">#Lighting</a>
+                    <a href="/tags/light">#Light</a>
                 
                     , 
                     <a href="/tags/%E5%B9%B3%E8%A1%8C%E5%85%89">#平行光</a>
@@ -169,9 +254,10 @@
     </ul>
 </aside>
 
-            <p>什么平行光 光都是由光源体发射出来的，光源体形状和物体形状决定了物体影子。
-平行光其实是为了模拟远距离巨型光源体而构建的概念，这样可以减少对光源体的碰撞运算。 现实中太阳对于地球来讲就是这么一个光源体，远而且巨大。
-相关参数  位置  该参数与平行光无关，但是为了便于选取和编辑，都会保留此参数   方向  决定了模型的哪些面（依赖法线）可以被照亮   颜色  光的颜色   强度  光的亮度   散射角度  即一个物体可以从什么角度范围受到光源体的照射 简单来讲散射角度越大，物体可能受到的光照就越多 下面有展示    效果展示 方向、颜色和强度是常识，这里就不进行展示。</p>
+            <p>平行光 光都是由光源体发射出来的，光源体形状和物体形状决定了物体影子。
+平行光是为了模拟远距离巨型光源体而构建的概念，这样可以减少对光源体的碰撞运算。 现实中太阳对于地球来讲就是这么一个光源体，远而且巨大。
+相关参数  颜色 - 光源颜色 强度 - 光源亮度 位置 - 该参数与平行光无关，但是为便于场景编辑，都会保留此参数 方向 - 决定了模型的哪些面（依赖法线）可以被照亮 散射角  即一个物体可以从什么角度范围受到光源体的照射 简单来讲散射角度越大，物体可能受到的光照就越多 下面有展示    效果展示 颜色、强度和方向是常识，这里就不进行展示。
+散射角  从百叶窗在墙上的阴影形态可以看出光源的大小。</p>
             
             <a href="/posts/xihe-development-log-2-direction-light/">阅读更多、、、</a>
             
@@ -180,13 +266,13 @@
         
         
         <li >
-            <a href="/posts/xihe-development-log-1st-intro/" title="羲和开发日志（一） 项目介绍">
+            <a href="/posts/xihe-development-log-1st-intro/" title="羲和开发日志（一） 介绍">
                 
                 
                 <image src="images/xihe-intro.jpg"></image>
                 
                 
-                <h1>羲和开发日志（一） 项目介绍</h1> 
+                <h1>羲和开发日志（一） 介绍</h1> 
             </a>
             <aside>
     <ul>

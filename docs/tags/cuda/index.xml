@@ -14,13 +14,13 @@
        
        
        <item>
-         <title>羲和开发日志（一） 项目介绍</title>
+         <title>羲和开发日志（一） 介绍</title>
          <link>/posts/xihe-development-log-1st-intro/</link>
          <pubDate>Wed, 28 Oct 2020 22:24:05 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/posts/xihe-development-log-1st-intro/</guid>
          <description>&lt;blockquote&gt;
-&lt;p&gt;本文介绍&lt;a href=&#34;../../pages/xihe/&#34;&gt;羲和&lt;/a&gt;项目的背景、目标和技术，当前项目状态请点&lt;a href=&#34;../../pages/xihe/&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;本文介绍&lt;a href=&#34;/pages/xihe&#34;&gt;羲和&lt;/a&gt;项目的背景、目标和技术，当前项目状态请点&lt;a href=&#34;../../pages/xihe/&#34;&gt;这里&lt;/a&gt;。&lt;/p&gt;
 &lt;h4 id=&#34;关于命名&#34;&gt;关于命名&lt;/h4&gt;
 &lt;p&gt;“&lt;strong&gt;羲和&lt;/strong&gt;”是&lt;a href=&#34;https://baike.baidu.com/item/%E7%BE%B2%E5%92%8C/278594&#34;&gt;中国古代神话的太阳女神&lt;/a&gt;，是善于运用光的神。
 渲染离不开对光的研究，而光学追踪更是如此，所以选用“&lt;strong&gt;羲和&lt;/strong&gt;”来命名这个项目。&lt;/p&gt;

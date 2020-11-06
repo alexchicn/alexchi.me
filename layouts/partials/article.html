@@ -1,5 +1,11 @@
 <article>
 
+    {{ if .Params.image }}
+    {{ with .Params.image }}
+    <image src="{{ . | absURL }}"></image>
+    {{ end }}
+    {{ end }}
+
     <h1>{{ .Title }}</h1>
 
     {{ if not .Params.meta }}

@@ -1,5 +1,5 @@
 ---
-title: "羲和开发日志（一） 项目介绍"
+title: "羲和开发日志（一） 介绍"
 #author: "Alex Chi"
 date: 2020-10-28T22:24:05+08:00
 draft: false
@@ -88,7 +88,7 @@ tags: [ "渲染", "光线追踪", "介绍", "Render", "Ray Tracing", "CUDA", "Op
 附：目前渲染测试效果
 ![xihe-intro-result](/images/xihe-intro-result.jpg)
 
-[羲和]: ../../pages/xihe/
+[羲和]: /pages/xihe
 [UnrealEngine]: https://www.unrealengine.com/
 [CryEngine]: https://www.cryengine.com/
 [Appleseed]: https://appleseedhq.net/

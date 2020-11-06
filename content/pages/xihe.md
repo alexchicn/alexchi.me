@@ -12,9 +12,7 @@ categories: []
 tags: []
 ---
 
-一个承载最新技术的渲染器。
-
-> 此页面持续更新中...
+这是一个**渲染服务**项目，希望未来能够以云服务形式让更多人轻易地接触到高质量渲染效果，并且通过不断地迭代技术来提升其易用性。
 
 ## 特性和进展
 
@@ -23,28 +21,33 @@ tags: []
     * [x] 整合[OptiX] 7.0
     * [x] 整合[MDL]
     * [x] 使用[FlatBuffers]定义渲染数据
+    * [x] 构建光线追踪算法框架
+    * [ ] 检查显卡驱动和CUDA版本
+    * [ ] 支持多GPU
+    * [ ] 渲染服务
 * 灯光
     * [x] 平行光
         * [x] 颜色
         * [x] 强度
         * [x] 方向
-        * [x] 散射
-        * [x] 距离
+        * [x] 散射角
+        * [x] 长度
     * 点光
         * [x] 颜色
         * [x] 强度
-        * [ ] 发光体半径
-        * [x] 距离
+        * [x] 半径
+        * [x] 长度
     * 射灯
         * [ ] 颜色
         * [ ] 强度
-        * [ ] 发光体半径
-        * [ ] 距离
+        * [ ] 半径
+        * [ ] 长度
         * [ ] 方向
+        * [ ] 内角
+        * [ ] 外角
         * [ ] IES
     * [ ] 面光
 * 材质
-    * [x] 整合[MDL]
     * [x] 固有色
     * [ ] 漫反射贴图
     * [x] 金属色
@@ -52,8 +55,10 @@ tags: []
     * [x] 粗糙度/光滑度
     * [ ] 粗糙贴图/光滑贴图
     * [x] 自发光
+    * [ ] 半透明
     * [ ] 折射率
-    * [ ] 遮罩
+    * [ ] 遮罩贴图
+    * [ ] 多层重叠
 * 模型
     * [x] 三角面
         * [x] 顶点
@@ -86,24 +91,38 @@ tags: []
         * [ ] 金属度图
         * [ ] 粗糙度图
 * 工具
-    * 将glTF转换为可加载的[FlatBuffers]二进制数据
-        * [x] 平行光
-        * [ ] 点光
-        * [ ] glTF材质
-        * [x] 模型
-        * [x] 透视相机
+    * 构建[FlatBuffers]场景数据
+        * 通过[glTF]
+            * [x] 平行光
+            * [x] 点光
+            * [ ] 射灯
+            * [ ] 面光
+            * [ ] glTF材质
+            * [x] 模型
+            * [x] 透视相机
+        * 通过[Blender]
+            * [ ] 平行光
+            * [ ] 点光
+            * [ ] 射灯
+            * [ ] 面光
+            * [ ] 内置材质
+            * [x] 模型
+            * [x] 透视相机
     * [x] 场景查看器
 
 ## 相关文章
 
-* [羲和开发日志（二） 平行光](/posts/xihe-development-log-2-direction-light)
 * [羲和开发日志（一） 项目介绍](/posts/xihe-development-log-1st-intro)
+* [羲和开发日志（二） 平行光](/posts/xihe-development-log-2-direction-light)
+* [羲和开发日志（三） 点光](/posts/xihe-development-log-3-point-light)
 
-## 渲染结果
+## 渲染效果展示
 
 ### 2020-11-06
 
-![xihe-result-20201106](/images/xihe-result-20201106.jpg)
+![xihe-result-20201106a](/images/xihe-result-20201106a.jpg)
+
+![xihe-result-20201106b](/images/xihe-result-20201106b.jpg)
 
 *相关场景模型取自[The Breakfast Room(License: CC-BY)](https://blendswap.com/blend/13363)*
 
@@ -123,3 +142,5 @@ tags: []
 [FlatBuffers]: https://google.github.io/flatbuffers/
 [Nvidia DLSS]: https://developer.nvidia.com/dlss
 [Intel Open Image Denoise]: https://www.openimagedenoise.org/
+[glTF]: https://khronos.org/gltf
+[Blender]: http://blender.org/

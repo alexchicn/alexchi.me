@@ -22,25 +22,25 @@
         {{ end }}
         {{ end }}
         {{ if .Site.Author.categories }}
-        <li><a target="_blank" href="{{ .Site.Author.categories }}"><i class="fas fa-tags" aria-hidden="true"></i></a></li>
+        <li><a href="{{ .Site.Author.categories }}"><i class="fas fa-tags" aria-hidden="true"></i></a></li>
         {{ end }}
         {{ if .Site.Author.tags }}
-        <li><a target="_blank" href="{{ .Site.Author.tags }}"><i class="fas fa-tags" aria-hidden="true"></i></a></li>
+        <li><a href="{{ .Site.Author.tags }}"><i class="fas fa-tags" aria-hidden="true"></i></a></li>
         {{ end }}
         {{ if .Site.Author.user }}
-        <li><a target="_blank" href="{{ .Site.Author.user }}"><i class="fas fa-user" aria-hidden="true"></i></a></li>
-        {{ end }}
-        {{ if .Site.Author.twitter }}
-        <li><a target="_blank" href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
-        {{ end }}
-        {{ if .Site.Author.linkedin }}
-        <li><a target="_blank" href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="{{ .Site.Author.user }}"><i class="fas fa-user" aria-hidden="true"></i></a></li>
         {{ end }}
         {{ if .Site.Author.github }}
         <li><a target="_blank" href="https://github.com/{{ .Site.Author.github }}"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
         {{ end }}
         {{ if .Site.Author.gitlab }}
         <li><a target="_blank" href="https://gitlab.com/{{ .Site.Author.gitlab }}"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.twitter }}
+        <li><a target="_blank" href="https://twitter.com/{{ .Site.Author.twitter }}"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        {{ end }}
+        {{ if .Site.Author.linkedin }}
+        <li><a target="_blank" href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
         {{ end }}
         {{ if .Site.Author.email }}
         <li><a target="_blank" href="{{ .Site.Author.email }}"><i class="fas fa-at" aria-hidden="true"></i></a></li>

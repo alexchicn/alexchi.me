@@ -19,33 +19,17 @@
          <pubDate>Tue, 03 Nov 2020 10:12:39 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/posts/xihe-development-log-2-direction-light/</guid>
-         <description>&lt;h2 id=&#34;什么平行光&#34;&gt;什么平行光&lt;/h2&gt;
+         <description>&lt;h2 id=&#34;平行光&#34;&gt;平行光&lt;/h2&gt;
 &lt;p&gt;光都是由光源体发射出来的，光源体形状和物体形状决定了物体影子。&lt;/p&gt;
-&lt;p&gt;平行光其实是为了模拟远距离巨型光源体而构建的概念，这样可以减少对光源体的碰撞运算。
+&lt;p&gt;平行光是为了模拟远距离巨型光源体而构建的概念，这样可以减少对光源体的碰撞运算。
 现实中太阳对于地球来讲就是这么一个光源体，远而且巨大。&lt;/p&gt;
 &lt;h2 id=&#34;相关参数&#34;&gt;相关参数&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;位置
-&lt;ul&gt;
-&lt;li&gt;该参数与平行光无关，但是为了便于选取和编辑，都会保留此参数&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;方向
-&lt;ul&gt;
-&lt;li&gt;决定了模型的哪些面（依赖法线）可以被照亮&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;颜色
-&lt;ul&gt;
-&lt;li&gt;光的颜色&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;强度
-&lt;ul&gt;
-&lt;li&gt;光的亮度&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;散射角度
+&lt;li&gt;颜色 - 光源颜色&lt;/li&gt;
+&lt;li&gt;强度 - 光源亮度&lt;/li&gt;
+&lt;li&gt;位置 - 该参数与平行光无关，但是为便于场景编辑，都会保留此参数&lt;/li&gt;
+&lt;li&gt;方向 - 决定了模型的哪些面（依赖法线）可以被照亮&lt;/li&gt;
+&lt;li&gt;散射角
 &lt;ul&gt;
 &lt;li&gt;即一个物体可以从什么角度范围受到光源体的照射&lt;/li&gt;
 &lt;li&gt;简单来讲散射角度越大，物体可能受到的光照就越多&lt;/li&gt;
@@ -54,18 +38,18 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;效果展示&#34;&gt;效果展示&lt;/h2&gt;
-&lt;p&gt;方向、颜色和强度是常识，这里就不进行展示。&lt;/p&gt;
-&lt;h3 id=&#34;散射角度&#34;&gt;散射角度&lt;/h3&gt;
+&lt;p&gt;颜色、强度和方向是常识，这里就不进行展示。&lt;/p&gt;
+&lt;h3 id=&#34;散射角&#34;&gt;散射角&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;从百叶窗在墙上的阴影形态可以看出光源的大小。&lt;/strong&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;散射角度为0，则有下图：&lt;/p&gt;
+&lt;p&gt;散射角度为0，如下图：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle0.jpg&#34; alt=&#34;xihe-result-light-direction-angle0&#34;&gt;&lt;/p&gt;
-&lt;p&gt;散射角度为2，则有下图：&lt;/p&gt;
+&lt;p&gt;散射角度为2，如下图：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle2.jpg&#34; alt=&#34;xihe-result-light-direction-angle2&#34;&gt;&lt;/p&gt;
-&lt;p&gt;散射角度为17，则有下图：&lt;/p&gt;
+&lt;p&gt;散射角度为17，如下图：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle17.jpg&#34; alt=&#34;xihe-result-light-direction-angle17&#34;&gt;&lt;/p&gt;
-&lt;p&gt;散射角度为57，则有下图：&lt;/p&gt;
+&lt;p&gt;散射角度为57，如下图：&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/xihe-result-light-direction-angle57.jpg&#34; alt=&#34;xihe-result-light-direction-angle57&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;相关场景模型取自&lt;a href=&#34;https://blendswap.com/blend/13363&#34;&gt;The Breakfast Room(License: CC-BY)&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 </description>
