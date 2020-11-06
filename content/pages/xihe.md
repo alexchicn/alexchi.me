@@ -14,12 +14,15 @@ tags: []
 
 一个承载最新技术的渲染器。
 
+> 此页面持续更新中...
+
 ## 特性和进展
 
 * 基础
+    * [x] 整合[CUDA] 11.0
     * [x] 整合[OptiX] 7.0
     * [x] 整合[MDL]
-    * [x] 基于FlatBuffers定义渲染数据
+    * [x] 使用[FlatBuffers]定义渲染数据
 * 灯光
     * [x] 平行光
         * [x] 颜色
@@ -63,17 +66,33 @@ tags: []
         * [x] FOV
         * [ ] 最近距离
         * [ ] 最远距离
+        * [ ] 景深
     * [ ] 平视
     * [ ] 全景
+* 场景
+    * [ ] 背景材质
+    * [ ] 反弹次数
+        * [ ] 半透材质
+        * [ ] 非半透材质
+    * [ ] 采样次数
+* 后期
+    * 降噪
+        * [x] [Nvidia DLSS]
+        * [ ] [Intel Open Image Denoise]
+    * 输出
+        * [x] 光线跟踪图
+        * [x] 法线图
+        * [x] 模型实例分层图
+        * [ ] 金属度图
+        * [ ] 粗糙度图
 * 工具
-    * 将glTF转换为可加载的FlatBuffers二进制数据
+    * 将glTF转换为可加载的[FlatBuffers]二进制数据
         * [x] 平行光
         * [ ] 点光
         * [ ] glTF材质
         * [x] 模型
         * [x] 透视相机
     * [x] 场景查看器
-
 
 ## 相关文章
 
@@ -98,6 +117,9 @@ tags: []
 
 ![xihe-result-20201103a](/images/xihe-intro-result.jpg)
 
-[MDL]: https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/
-[OptiX]: https://developer.nvidia.com/optix
 [CUDA]: https://developer.nvidia.com/cuda-toolkit
+[OptiX]: https://developer.nvidia.com/optix
+[MDL]: https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/
+[FlatBuffers]: https://google.github.io/flatbuffers/
+[Nvidia DLSS]: https://developer.nvidia.com/dlss
+[Intel Open Image Denoise]: https://www.openimagedenoise.org/

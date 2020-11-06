@@ -108,13 +108,17 @@
     
 
     <div class="article-content"><p>一个承载最新技术的渲染器。</p>
+<blockquote>
+<p>此页面持续更新中&hellip;</p>
+</blockquote>
 <h2 id="特性和进展">特性和进展</h2>
 <ul>
 <li>基础
 <ul>
+<li><input checked="" disabled="" type="checkbox"> 整合<a href="https://developer.nvidia.com/cuda-toolkit">CUDA</a> 11.0</li>
 <li><input checked="" disabled="" type="checkbox"> 整合<a href="https://developer.nvidia.com/optix">OptiX</a> 7.0</li>
 <li><input checked="" disabled="" type="checkbox"> 整合<a href="https://www.nvidia.com/en-us/design-visualization/technologies/material-definition-language/">MDL</a></li>
-<li><input checked="" disabled="" type="checkbox"> 基于FlatBuffers定义渲染数据</li>
+<li><input checked="" disabled="" type="checkbox"> 使用<a href="https://google.github.io/flatbuffers/">FlatBuffers</a>定义渲染数据</li>
 </ul>
 </li>
 <li>灯光
@@ -183,15 +187,47 @@
 <li><input checked="" disabled="" type="checkbox"> FOV</li>
 <li><input disabled="" type="checkbox"> 最近距离</li>
 <li><input disabled="" type="checkbox"> 最远距离</li>
+<li><input disabled="" type="checkbox"> 景深</li>
 </ul>
 </li>
 <li><input disabled="" type="checkbox"> 平视</li>
 <li><input disabled="" type="checkbox"> 全景</li>
 </ul>
 </li>
+<li>场景
+<ul>
+<li><input disabled="" type="checkbox"> 背景材质</li>
+<li><input disabled="" type="checkbox"> 反弹次数
+<ul>
+<li><input disabled="" type="checkbox"> 半透材质</li>
+<li><input disabled="" type="checkbox"> 非半透材质</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 采样次数</li>
+</ul>
+</li>
+<li>后期
+<ul>
+<li>降噪
+<ul>
+<li><input checked="" disabled="" type="checkbox"> <a href="https://developer.nvidia.com/dlss">Nvidia DLSS</a></li>
+<li><input disabled="" type="checkbox"> <a href="https://www.openimagedenoise.org/">Intel Open Image Denoise</a></li>
+</ul>
+</li>
+<li>输出
+<ul>
+<li><input checked="" disabled="" type="checkbox"> 光线跟踪图</li>
+<li><input checked="" disabled="" type="checkbox"> 法线图</li>
+<li><input checked="" disabled="" type="checkbox"> 模型实例分层图</li>
+<li><input disabled="" type="checkbox"> 金属度图</li>
+<li><input disabled="" type="checkbox"> 粗糙度图</li>
+</ul>
+</li>
+</ul>
+</li>
 <li>工具
 <ul>
-<li>将glTF转换为可加载的FlatBuffers二进制数据
+<li>将glTF转换为可加载的<a href="https://google.github.io/flatbuffers/">FlatBuffers</a>二进制数据
 <ul>
 <li><input checked="" disabled="" type="checkbox"> 平行光</li>
 <li><input disabled="" type="checkbox"> 点光</li>
