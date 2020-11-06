@@ -43,7 +43,7 @@
         <li><a target="_blank" href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
         {{ end }}
         {{ if .Site.Author.email }}
-        <li><a target="_blank" href="{{ .Site.Author.email }}"><i class="fas fa-at" aria-hidden="true"></i></a></li>
+        <li><a href="{{ .Site.Author.email }}"><i class="fas fa-at" aria-hidden="true"></i></a></li>
         {{ end }}
       </ul>
       {{ with .Site.Params.tagline }}
