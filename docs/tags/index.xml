@@ -8,7 +8,7 @@
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
-       <lastBuildDate>Fri, 06 Nov 2020 21:02:36 +0800</lastBuildDate>
+       <lastBuildDate>Sat, 07 Nov 2020 12:19:41 +0800</lastBuildDate>
        
            <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
        
@@ -16,9 +16,72 @@
        <item>
          <title>Light</title>
          <link>/tags/light/</link>
-         <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/tags/light/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>Ray Tracing</title>
+         <link>/tags/ray-tracing/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/ray-tracing/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>Render</title>
+         <link>/tags/render/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/render/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>Spot Light</title>
+         <link>/tags/spot-light/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/spot-light/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>光线追踪</title>
+         <link>/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>射灯</title>
+         <link>/tags/%E5%B0%84%E7%81%AF/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/%E5%B0%84%E7%81%AF/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>渲染</title>
+         <link>/tags/%E6%B8%B2%E6%9F%93/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/%E6%B8%B2%E6%9F%93/</guid>
+         <description></description>
+       </item>
+       
+       <item>
+         <title>灯光</title>
+         <link>/tags/%E7%81%AF%E5%85%89/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/tags/%E7%81%AF%E5%85%89/</guid>
          <description></description>
        </item>
        
@@ -28,51 +91,6 @@
          <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
          <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
          <guid>/tags/point-light/</guid>
-         <description></description>
-       </item>
-       
-       <item>
-         <title>Ray Tracing</title>
-         <link>/tags/ray-tracing/</link>
-         <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
-         <guid>/tags/ray-tracing/</guid>
-         <description></description>
-       </item>
-       
-       <item>
-         <title>Render</title>
-         <link>/tags/render/</link>
-         <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
-         <guid>/tags/render/</guid>
-         <description></description>
-       </item>
-       
-       <item>
-         <title>光线追踪</title>
-         <link>/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</link>
-         <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
-         <guid>/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA/</guid>
-         <description></description>
-       </item>
-       
-       <item>
-         <title>渲染</title>
-         <link>/tags/%E6%B8%B2%E6%9F%93/</link>
-         <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
-         <guid>/tags/%E6%B8%B2%E6%9F%93/</guid>
-         <description></description>
-       </item>
-       
-       <item>
-         <title>灯光</title>
-         <link>/tags/%E7%81%AF%E5%85%89/</link>
-         <pubDate>Fri, 06 Nov 2020 21:02:36 +0800</pubDate>
-         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
-         <guid>/tags/%E7%81%AF%E5%85%89/</guid>
          <description></description>
        </item>
        

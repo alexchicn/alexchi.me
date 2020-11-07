@@ -55,13 +55,13 @@
 &lt;/li&gt;
 &lt;li&gt;射灯
 &lt;ul&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 颜色&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 强度&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 半径&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 长度&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 方向&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 内角&lt;/li&gt;
-&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 外角&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 颜色&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 强度&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 半径&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 长度&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 方向&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 内角&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 外角&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; IES&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
@@ -178,8 +178,11 @@
 &lt;li&gt;&lt;a href=&#34;/posts/xihe-development-log-1st-intro&#34;&gt;羲和开发日志（一） 项目介绍&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;/posts/xihe-development-log-2-direction-light&#34;&gt;羲和开发日志（二） 平行光&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;/posts/xihe-development-log-3-point-light&#34;&gt;羲和开发日志（三） 点光&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;/posts/xihe-development-log-4-spot-light&#34;&gt;羲和开发日志（四） 射灯&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;渲染效果展示&#34;&gt;渲染效果展示&lt;/h2&gt;
+&lt;h3 id=&#34;2020-11-07&#34;&gt;2020-11-07&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;/images/xihe-result-20201107a.webp&#34; alt=&#34;xihe-result-20201107a&#34;&gt;&lt;/p&gt;
 &lt;h3 id=&#34;2020-11-06&#34;&gt;2020-11-06&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;/images/xihe-result-20201106a.jpg&#34; alt=&#34;xihe-result-20201106a&#34;&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/images/xihe-result-20201106b.jpg&#34; alt=&#34;xihe-result-20201106b&#34;&gt;&lt;/p&gt;

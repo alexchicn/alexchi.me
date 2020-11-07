@@ -28,6 +28,7 @@
 &lt;li&gt;颜色 - 光源颜色&lt;/li&gt;
 &lt;li&gt;强度 - 光源亮度&lt;/li&gt;
 &lt;li&gt;位置 - 光源位置&lt;/li&gt;
+&lt;li&gt;长度 - 光源的影响范围&lt;/li&gt;
 &lt;li&gt;半径
 &lt;ul&gt;
 &lt;li&gt;用于模拟光源尺寸&lt;/li&gt;

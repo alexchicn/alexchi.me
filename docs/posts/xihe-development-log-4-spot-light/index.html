@@ -1,0 +1,326 @@
+<!doctype html>
+
+<html lang="zh-cn">
+
+<head>
+  <title>Alex Chi</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="Alex Chi" /><meta name="generator" content="Hugo 0.68.3" />
+    <script src="https://kit.fontawesome.com/b76b73e8e8.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/normalize/8.0.1/normalize.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="/css/styles.css" />
+  
+  
+  <link rel="icon" type="image/png" href="https://s.gravatar.com/avatar/acf66434234f9fa7785e80d79d880a54?s=80">
+  
+  
+
+  
+<script data-ad-client="ca-pub-7476229156776785" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+        <a href="/">Alex Chi</a>
+      </h1>
+
+      <ul id="social-media">
+        
+        
+        
+        
+        
+        
+        <li><a href="/pages/about-me"><i class="fas fa-user" aria-hidden="true"></i></a></li>
+        
+        
+        <li><a target="_blank" href="https://github.com/alexchicn"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
+        
+        
+        <li><a target="_blank" href="https://gitlab.com/alexchicn"><i class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+        
+        
+        <li><a target="_blank" href="https://twitter.com/alexchicn"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+        
+        
+        
+        <li><a href="mailto:alexchicn@gmail.com"><i class="fas fa-at" aria-hidden="true"></i></a></li>
+        
+      </ul>
+      
+      <p><em>一位图形学爱好者的唠叨</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="/pages/code4game/">
+                <i class="fa-li fa  fa-lg"></i><span>Code 4 Game</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/pages/xihe/">
+                <i class="fa-li fa  fa-lg"></i><span>羲和</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="/pages/about-me/">
+                <i class="fa-li fa  fa-lg"></i><span>关于我</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    
+    
+    <image src="/images/xihe-result-light-spot.webp"></image>
+    
+    
+
+    <h1>羲和开发日志（四） 射灯</h1>
+
+    
+        <aside>
+    <ul>
+        
+        <li>
+            日期：<time class="post-date" datetime="2020-11-07T12:19:41&#43;08:00">2020-11-07</time>
+        </li>
+        
+        <li>
+            分类：
+            <em>
+                
+                    
+                    <a href="/categories/%E7%BE%B2%E5%92%8C">@羲和</a>
+                
+                    , 
+                    <a href="/categories/xihe">@XiHe</a>
+                
+                    , 
+                    <a href="/categories/%E5%BC%80%E5%8F%91">@开发</a>
+                
+                    , 
+                    <a href="/categories/development">@Development</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            标签：
+            <em>
+                
+                    
+                    <a href="/tags/%E6%B8%B2%E6%9F%93">#渲染</a>
+                
+                    , 
+                    <a href="/tags/render">#Render</a>
+                
+                    , 
+                    <a href="/tags/%E5%85%89%E7%BA%BF%E8%BF%BD%E8%B8%AA">#光线追踪</a>
+                
+                    , 
+                    <a href="/tags/ray-tracing">#Ray Tracing</a>
+                
+                    , 
+                    <a href="/tags/%E7%81%AF%E5%85%89">#灯光</a>
+                
+                    , 
+                    <a href="/tags/light">#Light</a>
+                
+                    , 
+                    <a href="/tags/%E5%B0%84%E7%81%AF">#射灯</a>
+                
+                    , 
+                    <a href="/tags/spot-light">#Spot Light</a>
+                
+            </em>
+        </li>
+        
+        </li>
+
+        <li>阅读1分钟</li>
+    </ul>
+</aside>
+
+    
+
+    
+        <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#射灯">射灯</a></li>
+        <li><a href="#相关参数">相关参数</a></li>
+        <li><a href="#效果展示">效果展示</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+    
+
+    <div class="article-content"><h2 id="射灯">射灯</h2>
+<p>该类型的灯是在点光基础增加了光的散射方向和范围。</p>
+<h2 id="相关参数">相关参数</h2>
+<ul>
+<li>颜色 - 光源颜色</li>
+<li>强度 - 光源亮度</li>
+<li>位置 - 光源位置</li>
+<li>长度 - 光源的影响范围</li>
+<li>半径 - 与点光半径相同</li>
+<li>方向 - 射灯的朝向</li>
+<li>内角和外角
+<ul>
+<li>对于内角范围内的物体，光源强度不会衰减</li>
+<li>对于内角到外角范围内的物体，光源强度会线性衰减</li>
+<li>对于外角以外的物体，光源无法照射到</li>
+</ul>
+</li>
+</ul>
+<h2 id="效果展示">效果展示</h2>
+<h3 id="半径与内外角">半径与内外角</h3>
+<p>半径为0cm，外角60度，内角60度：</p>
+<table>
+<thead>
+<tr>
+<th>羲和</th>
+<th>Blender</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/images/xihe-result-light-spot-r00b00.webp" alt="xihe-result-light-spot-r00b00"></td>
+<td><img src="/images/blender-result-light-spot-r00b00.webp" alt="blender-result-light-spot-r00b00"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>半径为0cm，外角60度，内角30度：</p>
+<table>
+<thead>
+<tr>
+<th>羲和</th>
+<th>Blender</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/images/xihe-result-light-spot-r00b50.webp" alt="xihe-result-light-spot-r00b50"></td>
+<td><img src="/images/blender-result-light-spot-r00b50.webp" alt="blender-result-light-spot-r00b50"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>半径为10cm，外角60度，内角60度：</p>
+<table>
+<thead>
+<tr>
+<th>羲和</th>
+<th>Blender</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/images/xihe-result-light-spot-r10b00.webp" alt="xihe-result-light-spot-r10b00"></td>
+<td><img src="/images/blender-result-light-spot-r10b00.webp" alt="blender-result-light-spot-r10b00"></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>半径为10cm，外角60度，内角30度：</p>
+<table>
+<thead>
+<tr>
+<th>羲和</th>
+<th>Blender</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img src="/images/xihe-result-light-spot-r10b50.webp" alt="xihe-result-light-spot-r10b50"></td>
+<td><img src="/images/blender-result-light-spot-r10b50.webp" alt="blender-result-light-spot-r10b50"></td>
+</tr>
+</tbody>
+</table>
+<p><em>相关场景模型取自<a href="https://blendswap.com/blend/13363">The Breakfast Room(License: CC-BY)</a></em></p>
+</div>
+
+    
+    
+<script src="https://utteranc.es/client.js"
+    repo="alexchicn/alexchi.me"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>
+
+    
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="/posts/xihe-development-log-3-point-light/"><i class="fa fa-chevron-circle-left"></i> 羲和开发日志（三） 点光</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            渲染器：<a target="_blank" href="https://gohugo.io" title="Hugo">Hugo 0.68.3</a> |
+            <a href="index.xml">订阅</a></h6>
+    </footer>
+</div>
+<script src="/js/scripts.js"></script>
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-37594072-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+
+
+</body>
+
+</html>

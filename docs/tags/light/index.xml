@@ -8,10 +8,103 @@
        <language>zh-cn</language>
        <managingEditor>mailto:alexchicn@gmail.com (Alex Chi)</managingEditor>
        <webMaster>mailto:alexchicn@gmail.com (Alex Chi)</webMaster>
-       <lastBuildDate>Fri, 06 Nov 2020 21:02:36 +0800</lastBuildDate>
+       <lastBuildDate>Sat, 07 Nov 2020 12:19:41 +0800</lastBuildDate>
        
            <atom:link href="/tags/light/index.xml" rel="self" type="application/rss+xml" />
        
+       
+       <item>
+         <title>羲和开发日志（四） 射灯</title>
+         <link>/posts/xihe-development-log-4-spot-light/</link>
+         <pubDate>Sat, 07 Nov 2020 12:19:41 +0800</pubDate>
+         <author>mailto:alexchicn@gmail.com (Alex Chi)</author>
+         <guid>/posts/xihe-development-log-4-spot-light/</guid>
+         <description>&lt;h2 id=&#34;射灯&#34;&gt;射灯&lt;/h2&gt;
+&lt;p&gt;该类型的灯是在点光基础增加了光的散射方向和范围。&lt;/p&gt;
+&lt;h2 id=&#34;相关参数&#34;&gt;相关参数&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;颜色 - 光源颜色&lt;/li&gt;
+&lt;li&gt;强度 - 光源亮度&lt;/li&gt;
+&lt;li&gt;位置 - 光源位置&lt;/li&gt;
+&lt;li&gt;长度 - 光源的影响范围&lt;/li&gt;
+&lt;li&gt;半径 - 与点光半径相同&lt;/li&gt;
+&lt;li&gt;方向 - 射灯的朝向&lt;/li&gt;
+&lt;li&gt;内角和外角
+&lt;ul&gt;
+&lt;li&gt;对于内角范围内的物体，光源强度不会衰减&lt;/li&gt;
+&lt;li&gt;对于内角到外角范围内的物体，光源强度会线性衰减&lt;/li&gt;
+&lt;li&gt;对于外角以外的物体，光源无法照射到&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;效果展示&#34;&gt;效果展示&lt;/h2&gt;
+&lt;h3 id=&#34;半径与内外角&#34;&gt;半径与内外角&lt;/h3&gt;
+&lt;p&gt;半径为0cm，外角60度，内角60度：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;羲和&lt;/th&gt;
+&lt;th&gt;Blender&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;/images/xihe-result-light-spot-r00b00.webp&#34; alt=&#34;xihe-result-light-spot-r00b00&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;/images/blender-result-light-spot-r00b00.webp&#34; alt=&#34;blender-result-light-spot-r00b00&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;半径为0cm，外角60度，内角30度：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;羲和&lt;/th&gt;
+&lt;th&gt;Blender&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;/images/xihe-result-light-spot-r00b50.webp&#34; alt=&#34;xihe-result-light-spot-r00b50&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;/images/blender-result-light-spot-r00b50.webp&#34; alt=&#34;blender-result-light-spot-r00b50&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;半径为10cm，外角60度，内角60度：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;羲和&lt;/th&gt;
+&lt;th&gt;Blender&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;/images/xihe-result-light-spot-r10b00.webp&#34; alt=&#34;xihe-result-light-spot-r10b00&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;/images/blender-result-light-spot-r10b00.webp&#34; alt=&#34;blender-result-light-spot-r10b00&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;p&gt;半径为10cm，外角60度，内角30度：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;羲和&lt;/th&gt;
+&lt;th&gt;Blender&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;img src=&#34;/images/xihe-result-light-spot-r10b50.webp&#34; alt=&#34;xihe-result-light-spot-r10b50&#34;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;img src=&#34;/images/blender-result-light-spot-r10b50.webp&#34; alt=&#34;blender-result-light-spot-r10b50&#34;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;&lt;em&gt;相关场景模型取自&lt;a href=&#34;https://blendswap.com/blend/13363&#34;&gt;The Breakfast Room(License: CC-BY)&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+</description>
+       </item>
        
        <item>
          <title>羲和开发日志（三） 点光</title>
@@ -28,6 +121,7 @@
 &lt;li&gt;颜色 - 光源颜色&lt;/li&gt;
 &lt;li&gt;强度 - 光源亮度&lt;/li&gt;
 &lt;li&gt;位置 - 光源位置&lt;/li&gt;
+&lt;li&gt;长度 - 光源的影响范围&lt;/li&gt;
 &lt;li&gt;半径
 &lt;ul&gt;
 &lt;li&gt;用于模拟光源尺寸&lt;/li&gt;
@@ -67,6 +161,7 @@
 &lt;li&gt;颜色 - 光源颜色&lt;/li&gt;
 &lt;li&gt;强度 - 光源亮度&lt;/li&gt;
 &lt;li&gt;位置 - 该参数与平行光无关，但是为便于场景编辑，都会保留此参数&lt;/li&gt;
+&lt;li&gt;长度 - 光源的影响范围&lt;/li&gt;
 &lt;li&gt;方向 - 决定了模型的哪些面（依赖法线）可以被照亮&lt;/li&gt;
 &lt;li&gt;散射角
 &lt;ul&gt;

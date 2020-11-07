@@ -38,13 +38,13 @@ tags: []
         * [x] 半径
         * [x] 长度
     * 射灯
-        * [ ] 颜色
-        * [ ] 强度
-        * [ ] 半径
-        * [ ] 长度
-        * [ ] 方向
-        * [ ] 内角
-        * [ ] 外角
+        * [x] 颜色
+        * [x] 强度
+        * [x] 半径
+        * [x] 长度
+        * [x] 方向
+        * [x] 内角
+        * [x] 外角
         * [ ] IES
     * [ ] 面光
 * 材质
@@ -115,8 +115,13 @@ tags: []
 * [羲和开发日志（一） 项目介绍](/posts/xihe-development-log-1st-intro)
 * [羲和开发日志（二） 平行光](/posts/xihe-development-log-2-direction-light)
 * [羲和开发日志（三） 点光](/posts/xihe-development-log-3-point-light)
+* [羲和开发日志（四） 射灯](/posts/xihe-development-log-4-spot-light)
 
 ## 渲染效果展示
+
+### 2020-11-07
+
+![xihe-result-20201107a](/images/xihe-result-20201107a.webp)
 
 ### 2020-11-06
 

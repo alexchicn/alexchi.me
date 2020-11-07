@@ -28,6 +28,7 @@
 &lt;li&gt;颜色 - 光源颜色&lt;/li&gt;
 &lt;li&gt;强度 - 光源亮度&lt;/li&gt;
 &lt;li&gt;位置 - 该参数与平行光无关，但是为便于场景编辑，都会保留此参数&lt;/li&gt;
+&lt;li&gt;长度 - 光源的影响范围&lt;/li&gt;
 &lt;li&gt;方向 - 决定了模型的哪些面（依赖法线）可以被照亮&lt;/li&gt;
 &lt;li&gt;散射角
 &lt;ul&gt;
